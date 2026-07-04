@@ -4151,5 +4151,508 @@
       "Vmícháme mouku s kypřicím práškem.",
       "Pečeme ve formě na 175 °C asi 50 minut."
     ]
+  },
+  {
+    "id": "panang-kari-kureci",
+    "name": "Panang kari s kuřecím masem",
+    "emoji": "🥥",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "500 g"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Panang/červená kari pasta",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "arasidove-maslo",
+        "name": "Arašídové máslo",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "rybi-omacka",
+        "name": "Rybí omáčka",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "ryze",
+        "name": "Jasmínová rýže",
+        "amount": "300 g"
+      }
+    ],
+    "instructions": [
+      "Část kokosového mléka svaříme na středním plameni, dokud se nezačne oddělovat olej, pak vmícháme kari pastu a krátce orestujeme.",
+      "Přidáme na nudličky nakrájené kuřecí maso a orestujeme.",
+      "Zalijeme zbylým kokosovým mlékem, přidáme arašídové máslo a rybí omáčku, dusíme 15 minut do zhoustnutí.",
+      "Podáváme s jasmínovou rýží."
+    ]
+  },
+  {
+    "id": "massamanske-kari-hovezi",
+    "name": "Massamanské kari s hovězím masem a bramborami",
+    "emoji": "🍛",
+    "time": 90,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "600 g"
+      },
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "400 g"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "arasidove-maslo",
+        "name": "Arašídové máslo",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Massamanská kari pasta",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Maso nakrájíme na kostky a orestujeme dozlatova.",
+      "Přidáme kari pastu a krátce orestujeme, poté zalijeme kokosovým mlékem.",
+      "Přidáme brambory na kostky, cibuli a arašídové máslo a dusíme na mírném ohni asi 60 minut doměkka.",
+      "Podáváme s rýží."
+    ]
+  },
+  {
+    "id": "karamelizovana-ryba-vietnamsky",
+    "name": "Karamelizovaná ryba po vietnamsku (Cá Kho Tộ)",
+    "emoji": "🐟",
+    "time": 45,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "asijske"
+    ],
+    "ingredients": [
+      {
+        "id": "treska",
+        "name": "Rybí filet",
+        "amount": "400 g"
+      },
+      {
+        "id": "cukr",
+        "name": "Cukr",
+        "amount": "3 lžíce"
+      },
+      {
+        "id": "rybi-omacka",
+        "name": "Rybí omáčka",
+        "amount": "3 lžíce"
+      },
+      {
+        "id": "zazvor",
+        "name": "Zázvor",
+        "amount": "kousek"
+      }
+    ],
+    "instructions": [
+      "Cukr necháme na pánvi zkaramelizovat dozlatova.",
+      "Přidáme rybí omáčku, nastrouhaný zázvor a trochu horké vody, promícháme na omáčku.",
+      "Vložíme kousky ryby, přiklopíme a dusíme na mírném ohni 30 minut, dokud omáčka nezhoustne.",
+      "Podáváme s rýží."
+    ]
+  },
+  {
+    "id": "secuanske-kureci-nudle",
+    "name": "Sečuánské kuřecí nudle",
+    "emoji": "🍜",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "400 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Pšeničné nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "chilli-omacka",
+        "name": "Chilli omáčka",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sezamovy-olej",
+        "name": "Sezamový olej",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Kuřecí maso nakrájíme na nudličky a prudce orestujeme na sezamovém oleji.",
+      "Přidáme papriku nakrájenou na nudličky a krátce orestujeme.",
+      "Přidáme uvařené nudle a chilli omáčku, promícháme a podáváme horké."
+    ]
+  },
+  {
+    "id": "pad-thai-krevety",
+    "name": "Pad Thai s krevetami",
+    "emoji": "🍤",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "krevety",
+        "name": "Krevety",
+        "amount": "250 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Rýžové nudle",
+        "amount": "200 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "arasidove-maslo",
+        "name": "Drcené arašídy",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "rybi-omacka",
+        "name": "Rybí omáčka",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Rýžové nudle namočíme podle návodu do měkka.",
+      "Na pánvi orestujeme krevety, odsuneme stranou a na uvolněné místo vklepneme vejce a rozmícháme.",
+      "Přidáme nudle, rybí omáčku a vše promícháme.",
+      "Posypeme drcenými arašídy a podáváme s klínkem limetky."
+    ]
+  },
+  {
+    "id": "chow-mein-zeleninovy",
+    "name": "Chow mein s kuřecím masem a zeleninou",
+    "emoji": "🥢",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "350 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Pšeničné nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "2 ks"
+      },
+      {
+        "id": "zeli",
+        "name": "Zelí nebo pak choi",
+        "amount": "200 g"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Kuřecí maso nakrájíme na nudličky a orestujeme dozlatova.",
+      "Přidáme na proužky nakrájenou mrkev a zelí, orestujeme dokřupava.",
+      "Přidáme uvařené nudle a sójovou omáčku, na pánvi vše krátce protřepeme."
+    ]
+  },
+  {
+    "id": "khao-soi-kureci",
+    "name": "Khao Soi – severothajská kari nudlová polévka",
+    "emoji": "🍲",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "polevka"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí stehna",
+        "amount": "600 g"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "nudle",
+        "name": "Vaječné nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Kari pasta",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "cibule",
+        "name": "Šalotka/cibule",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Kari pastu orestujeme na troše kokosového mléka, dokud nezavoní.",
+      "Přidáme kuřecí stehna a orestujeme.",
+      "Zalijeme zbylým kokosovým mlékem a vodou, vaříme 25 minut doměkka.",
+      "Podáváme přes uvařené nudle, ozdobené nakrájenou cibulí."
+    ]
+  },
+  {
+    "id": "pho-hovezi",
+    "name": "Vietnamská hovězí polévka Pho",
+    "emoji": "🍜",
+    "time": 60,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "polevka"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "400 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Rýžové nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "zazvor",
+        "name": "Zázvor",
+        "amount": "kousek"
+      },
+      {
+        "id": "bujon",
+        "name": "Hovězí vývar",
+        "amount": "1,5 l"
+      },
+      {
+        "id": "koriandr",
+        "name": "Koriandr",
+        "amount": "hrst"
+      }
+    ],
+    "instructions": [
+      "Zázvor krátce opečeme na sucho, aby zvýraznil vůni, a vložíme do vývaru.",
+      "Vývar provaříme s kořením (skořice, badyán, pokud máte) asi 30 minut.",
+      "Hovězí maso nakrájíme na tenké plátky a spaříme přímo horkým vývarem v míse s nudlemi.",
+      "Podáváme s čerstvým koriandrem a limetkou."
+    ]
+  },
+  {
+    "id": "bibimbap-hovezi",
+    "name": "Korejský bibimbap s hovězím masem",
+    "emoji": "🍚",
+    "time": 40,
+    "servings": 2,
+    "tags": [
+      "maso",
+      "asijske"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "300 g"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "300 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "1 ks"
+      },
+      {
+        "id": "spenat",
+        "name": "Špenát",
+        "amount": "150 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Hovězí maso nakrájíme na nudličky a marinujeme v sójové omáčce, poté orestujeme.",
+      "Mrkev a špenát zvlášť orestujeme dokřupava.",
+      "Rýži rozdělíme do misek, navrch naskládáme maso a zeleninu.",
+      "Na každou porci přidáme volské oko a před podáváním promícháme."
+    ]
+  },
+  {
+    "id": "teriyaki-donburi-kureci",
+    "name": "Japonské teriyaki kuřecí donburi",
+    "emoji": "🍱",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "maso",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí stehna",
+        "amount": "400 g"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "300 g"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "3 lžíce"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Kuřecí stehna opečeme kůží dolů dokřupava, poté otočíme a dopečeme.",
+      "Sójovou omáčku smícháme s medem a přidáme na pánev, necháme zredukovat na lesklou omáčku.",
+      "Maso nakrájíme na plátky a podáváme na rýži polité omáčkou."
+    ]
+  },
+  {
+    "id": "singapurske-nudle-kari",
+    "name": "Singapurské smažené nudle s kari kořením",
+    "emoji": "🍤",
+    "time": 20,
+    "servings": 4,
+    "tags": [
+      "ryba",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "krevety",
+        "name": "Krevety",
+        "amount": "200 g"
+      },
+      {
+        "id": "sunka",
+        "name": "Šunka",
+        "amount": "100 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Rýžové nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Kari koření",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Krevety a šunku krátce orestujeme, přidáme papriku nakrájenou na nudličky.",
+      "Přisypeme kari koření a krátce orestujeme, aby se uvolnila vůně.",
+      "Přidáme uvařené nudle a rozšlehaná vejce, za stálého míchání osmažíme dohromady."
+    ]
   }
 ]
