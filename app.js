@@ -1,6 +1,9 @@
 const PANTRY_STORAGE_KEY = "lidl-recepty-spiz";
+const SAVED_LEAFLETS_KEY = "lidl-recepty-ulozene-letaky";
+const ACTIVE_LEAFLET_KEY = "lidl-recepty-aktivni-letak";
 
 let leaflet = null;
+let baseLeaflet = null;
 let recipes = null;
 let pantry = loadPantry();
 let planned = new Set();
@@ -24,18 +27,113 @@ function leafletItemById(id) {
     return leaflet.items.find((i) => i.id === id);
 }
 
+function slugifyLeafletId(name) {
+    return (
+        name
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/(^-+|-+$)/g, "")
+            .slice(0, 40) || "polozka"
+    );
+}
+
 async function loadData() {
     const [leafletRes, recipesRes] = await Promise.all([
         fetch("data/leaflet.json"),
         fetch("data/recipes.json"),
     ]);
     leaflet = await leafletRes.json();
+    baseLeaflet = JSON.parse(JSON.stringify(leaflet));
     recipes = await recipesRes.json();
 }
 
 function renderValidity() {
+    const activeId = loadActiveLeafletId();
+    const active = activeId && loadSavedLeaflets().find((l) => l.id === activeId);
+    const suffix = active ? ` (uložený leták „${active.name}“)` : "";
     document.getElementById("validity").textContent =
-        `Platnost letáku: ${leaflet.validFrom} – ${leaflet.validTo}`;
+        `Platnost letáku: ${leaflet.validFrom} – ${leaflet.validTo}${suffix}`;
+}
+
+function rerenderAll() {
+    renderValidity();
+    renderPantry();
+    renderIngredientModeRecipes();
+    renderPreferenceModeRecipes();
+    if (!document.getElementById("shopping-list-output").hidden) {
+        buildShoppingList();
+    }
+}
+
+// ---------- Uložené letáky (z nahraných PDF, jen v tomto prohlížeči) ----------
+
+function loadSavedLeaflets() {
+    try {
+        const raw = localStorage.getItem(SAVED_LEAFLETS_KEY);
+        return raw ? JSON.parse(raw) : [];
+    } catch {
+        return [];
+    }
+}
+
+function saveSavedLeaflets(list) {
+    localStorage.setItem(SAVED_LEAFLETS_KEY, JSON.stringify(list));
+}
+
+function loadActiveLeafletId() {
+    return localStorage.getItem(ACTIVE_LEAFLET_KEY);
+}
+
+function applyActiveLeaflet() {
+    const activeId = loadActiveLeafletId();
+    leaflet = JSON.parse(JSON.stringify(baseLeaflet));
+    const active = activeId && loadSavedLeaflets().find((l) => l.id === activeId);
+    if (!active) return;
+
+    if (active.validFrom) leaflet.validFrom = active.validFrom;
+    if (active.validTo) leaflet.validTo = active.validTo;
+
+    for (const item of active.items) {
+        const existing = leaflet.items.find((i) => i.id === item.id);
+        if (existing) {
+            existing.name = item.name;
+            existing.price = item.price;
+        } else {
+            leaflet.items.push(item);
+        }
+    }
+}
+
+function saveNewLeaflet(name, items, validFrom, validTo) {
+    const id = slugifyLeafletId(name) + "-" + Date.now();
+    const list = loadSavedLeaflets().filter((l) => l.name !== name);
+    list.push({ id, name, items, validFrom, validTo, savedAt: new Date().toISOString() });
+    saveSavedLeaflets(list);
+    localStorage.setItem(ACTIVE_LEAFLET_KEY, id);
+    applyActiveLeaflet();
+    rerenderAll();
+    return id;
+}
+
+function setActiveLeaflet(id) {
+    if (id) {
+        localStorage.setItem(ACTIVE_LEAFLET_KEY, id);
+    } else {
+        localStorage.removeItem(ACTIVE_LEAFLET_KEY);
+    }
+    applyActiveLeaflet();
+    rerenderAll();
+}
+
+function deleteSavedLeaflet(id) {
+    saveSavedLeaflets(loadSavedLeaflets().filter((l) => l.id !== id));
+    if (loadActiveLeafletId() === id) {
+        setActiveLeaflet(null);
+    } else {
+        rerenderAll();
+    }
 }
 
 // ---------- Moje spíž ----------
@@ -65,6 +163,7 @@ function setPantryItem(id, has) {
         pantry.delete(id);
     }
     savePantry();
+    renderPantry();
     renderIngredientModeRecipes();
     if (!document.getElementById("shopping-list-output").hidden) {
         buildShoppingList();
@@ -382,6 +481,7 @@ function initTabs() {
 
 async function init() {
     await loadData();
+    applyActiveLeaflet();
     renderValidity();
     renderPantry();
     renderIngredientModeRecipes();

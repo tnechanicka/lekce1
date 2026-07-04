@@ -18,6 +18,55 @@
     </header>
 
     <main>
+        <section id="pdf-import-section">
+            <h2>Nahrát leták jako PDF</h2>
+            <p>
+                Nahraj PDF aktuálního letáku – appka se pokusí sama vytáhnout položky a ceny
+                (zpracování probíhá jen v tomto prohlížeči, nikam se nic neposílá). Rozpoznání
+                není 100% spolehlivé, proto vždy zkontroluj a případně oprav výsledek níže,
+                než ho použiješ.
+            </p>
+            <div class="filter-group">
+                <label for="saved-leaflet-select">Aktivní leták:</label>
+                <select id="saved-leaflet-select"></select>
+                <button type="button" id="saved-leaflet-delete-btn">Smazat vybraný</button>
+            </div>
+
+            <input type="file" id="pdf-input" accept="application/pdf">
+            <span id="pdf-status"></span>
+
+            <div id="pdf-review" hidden>
+                <div class="filter-group">
+                    <label>Název letáku <input type="text" id="pdf-leaflet-name" placeholder="např. Lidl leták od 6.7."></label>
+                </div>
+                <div class="filter-group">
+                    <label>Platnost od <input type="date" id="pdf-valid-from"></label>
+                    <label>Platnost do <input type="date" id="pdf-valid-to"></label>
+                </div>
+                <table id="pdf-review-table">
+                    <thead>
+                        <tr>
+                            <th>Zahrnout</th>
+                            <th>ID</th>
+                            <th>Název</th>
+                            <th>Cena</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <button type="button" id="pdf-add-row-btn">+ Přidat řádek</button>
+                <div class="pdf-review-actions">
+                    <button type="button" id="pdf-apply-btn">Uložit a použít tento leták</button>
+                    <button type="button" id="pdf-download-btn">Stáhnout jako leaflet.json</button>
+                </div>
+                <details id="pdf-raw-text">
+                    <summary>Zobrazit surový text z PDF (pro ruční doplnění)</summary>
+                    <pre id="pdf-raw-text-content"></pre>
+                </details>
+            </div>
+        </section>
+
         <section id="pantry-section">
             <h2>Moje spíž</h2>
             <p>Zaškrtni, co už doma máš z minulých nákupů – zůstane uložené i příště v tomto prohlížeči.</p>
@@ -58,5 +107,6 @@
     </main>
 
     <script src="app.js"></script>
+    <script src="pdf-import.js"></script>
 </body>
 </html>

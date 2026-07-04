@@ -325,6 +325,111 @@ h2 {
     color: var(--lidl-blue);
 }
 
+#pdf-import-section {
+    background: var(--card-bg);
+    border: 1px dashed var(--lidl-blue);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+}
+
+#pdf-status {
+    display: inline-block;
+    margin-left: 0.75rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+#saved-leaflet-select {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--border);
+}
+
+#saved-leaflet-delete-btn {
+    background: none;
+    border: 1px solid var(--lidl-red);
+    color: var(--lidl-red);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+#pdf-review {
+    margin-top: 1rem;
+}
+
+#pdf-review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+}
+
+#pdf-review-table th,
+#pdf-review-table td {
+    border-bottom: 1px solid var(--border);
+    padding: 0.35rem 0.5rem;
+    text-align: left;
+}
+
+#pdf-review-table input[type="text"] {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.4rem;
+    font-size: 0.85rem;
+}
+
+.pdf-row-tag {
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+.pdf-row-remove {
+    background: none;
+    border: none;
+    color: var(--lidl-red);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pdf-review-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+.pdf-review-actions button,
+#pdf-add-row-btn {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#pdf-apply-btn {
+    background: var(--lidl-red);
+    color: white;
+}
+
+#pdf-download-btn,
+#pdf-add-row-btn {
+    background: var(--bg);
+    border: 1px solid var(--border) !important;
+}
+
+#pdf-raw-text-content {
+    max-height: 16rem;
+    overflow: auto;
+    background: var(--bg);
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    white-space: pre-wrap;
+}
+
 .add-leftover-btn {
     display: block;
     background: var(--lidl-blue);
