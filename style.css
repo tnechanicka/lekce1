@@ -1,0 +1,468 @@
+:root {
+    --lidl-blue: #0050aa;
+    --lidl-yellow: #fff200;
+    --lidl-red: #e2001a;
+    --bg: #f5f6f8;
+    --card-bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666;
+    --border: #e0e0e0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+input[type="checkbox"] {
+    width: 1.15rem;
+    height: 1.15rem;
+    flex-shrink: 0;
+}
+
+header {
+    background: var(--lidl-blue);
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.6rem;
+}
+
+header .note {
+    max-width: 40rem;
+    margin: 0.75rem auto 0;
+    font-size: 0.85rem;
+    color: #dce8fb;
+}
+
+header .note a {
+    color: var(--lidl-yellow);
+}
+
+#validity {
+    font-weight: bold;
+    color: var(--lidl-yellow);
+    margin: 0;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    border-bottom: 3px solid var(--lidl-yellow);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+
+.leaflet-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.leaflet-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.9rem;
+}
+
+.leaflet-item:has(input:checked) {
+    background: var(--lidl-yellow);
+    border-color: var(--lidl-yellow);
+}
+
+.leaflet-item .price {
+    color: var(--muted);
+    font-size: 0.8rem;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.recipe-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.recipe-card h3 {
+    margin: 0.25rem 0 0.5rem;
+}
+
+.recipe-emoji {
+    font-size: 2rem;
+}
+
+.recipe-meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.match-badge {
+    display: inline-block;
+    background: var(--lidl-blue);
+    color: white;
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.match-badge.full {
+    background: #1a8f3c;
+}
+
+.ingredient-list {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0.5rem 0 0;
+    padding-left: 1.1rem;
+}
+
+.ingredient-list .missing {
+    color: var(--lidl-red);
+}
+
+.instructions {
+    display: none;
+    margin-top: 0.75rem;
+    border-top: 1px dashed var(--border);
+    padding-top: 0.75rem;
+}
+
+.recipe-card.expanded .instructions {
+    display: block;
+}
+
+.instructions ol {
+    padding-left: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+#mode-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tab {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: var(--lidl-blue);
+    color: white;
+    border-color: var(--lidl-blue);
+}
+
+#filter-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 1rem 0 1.5rem;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-group-label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 0.25rem;
+}
+
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.filter-chip:has(input:checked) {
+    background: var(--lidl-yellow);
+    border-color: var(--lidl-yellow);
+}
+
+#time-filter {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--border);
+}
+
+.plan-checkbox {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.recipe-card.planned {
+    border-color: var(--lidl-blue);
+    box-shadow: 0 0 0 2px var(--lidl-blue);
+}
+
+.build-list-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#build-list-btn {
+    background: var(--lidl-red);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#build-list-btn:hover {
+    filter: brightness(1.1);
+}
+
+#selected-count {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+#shopping-list-output {
+    margin-top: 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+}
+
+#shopping-list h3 {
+    margin-bottom: 0.5rem;
+}
+
+.shopping-items,
+.pantry-staples {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.shopping-items li {
+    padding: 0.35rem 0;
+    border-bottom: 1px dashed var(--border);
+}
+
+.shopping-items label {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.shopping-items .uses {
+    color: var(--muted);
+    font-size: 0.8rem;
+}
+
+.pantry-staples li {
+    display: inline-block;
+    background: var(--bg);
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    margin: 0.15rem 0.3rem 0.15rem 0;
+    font-size: 0.85rem;
+}
+
+.estimate {
+    font-weight: bold;
+    color: var(--lidl-blue);
+}
+
+#pdf-import-section {
+    background: var(--card-bg);
+    border: 1px dashed var(--lidl-blue);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+}
+
+#pdf-status {
+    display: inline-block;
+    margin-left: 0.75rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+#saved-leaflet-select {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--border);
+}
+
+#saved-leaflet-delete-btn {
+    background: none;
+    border: 1px solid var(--lidl-red);
+    color: var(--lidl-red);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+#pdf-review {
+    margin-top: 1rem;
+}
+
+.table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+}
+
+#pdf-review-table {
+    width: 100%;
+    min-width: 32rem;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+#pdf-review-table th,
+#pdf-review-table td {
+    border-bottom: 1px solid var(--border);
+    padding: 0.35rem 0.5rem;
+    text-align: left;
+}
+
+#pdf-review-table input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--border);
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.4rem;
+    font-size: 0.85rem;
+}
+
+#pdf-review-table .pdf-row-id {
+    min-width: 8rem;
+}
+
+#pdf-review-table .pdf-row-name {
+    min-width: 11rem;
+}
+
+#pdf-review-table .pdf-row-price {
+    min-width: 6rem;
+}
+
+.pdf-row-tag {
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+.pdf-row-remove {
+    background: none;
+    border: none;
+    color: var(--lidl-red);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pdf-review-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+.pdf-review-actions button,
+#pdf-add-row-btn {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#pdf-apply-btn {
+    background: var(--lidl-red);
+    color: white;
+}
+
+#pdf-download-btn,
+#pdf-add-row-btn {
+    background: var(--bg);
+    border: 1px solid var(--border) !important;
+}
+
+#pdf-raw-text-content {
+    max-height: 16rem;
+    overflow: auto;
+    background: var(--bg);
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    white-space: pre-wrap;
+}
+
+.add-leftover-btn {
+    display: block;
+    background: var(--lidl-blue);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}

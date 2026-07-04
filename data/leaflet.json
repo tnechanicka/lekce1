@@ -1,0 +1,31 @@
+{
+  "note": "Reálná data z letáku Lidl ČR platného od 2. 7. do 5. 7. 2026 (přepsáno z 5 vyfocených stran z 55 – jde tedy o částečný výběr, ne celý leták). Uprav ručně podle aktuálního letáku na lidl.cz/c/aktualni-nabidka.",
+  "validFrom": "2026-07-02",
+  "validTo": "2026-07-05",
+  "items": [
+    { "id": "kureci-stehna", "name": "Kuřecí horní a spodní stehna", "price": "79,90 Kč/kg" },
+    { "id": "vepr-krkovice", "name": "Vepřová krkovice bez kosti", "price": "79,90 Kč/kg" },
+    { "id": "pikok-maso", "name": "PIKOK Vepřové maso ve skle", "price": "39,90 Kč/300 g" },
+    { "id": "spekacky", "name": "PIKOK Špekáčky", "price": "139,90 Kč/1,4 kg" },
+    { "id": "losos", "name": "Losos obecný, filet", "price": "129,90 Kč/250 g" },
+    { "id": "tunak-steak", "name": "Tuňák žlutoploutvý, steak", "price": "39,90 Kč/100 g" },
+    { "id": "kanic-filet", "name": "Kanic filet", "price": "44,90 Kč/100 g" },
+    { "id": "krevety", "name": "Krevety celé vařené", "price": "179,90 Kč/500 g" },
+    { "id": "prazma", "name": "Pražma královská", "price": "28,90 Kč/100 g" },
+    { "id": "sushi", "name": "Sushi", "price": "59,90 Kč/balení" },
+    { "id": "vejce10", "name": "Čerstvá vejce M, 10 ks", "price": "49,90 Kč" },
+    { "id": "vejce30", "name": "Čerstvá vejce M, 30 ks", "price": "144,90 Kč" },
+    { "id": "maslo", "name": "MILKPOL Máslo", "price": "19,90 Kč/250 g" },
+    { "id": "hermelin", "name": "SEDLČANSKÝ Hermelín Duopack", "price": "59,90 Kč/2×100 g" },
+    { "id": "mozzarella", "name": "PILOS Mozzarella", "price": "12,90 Kč/195 g" },
+    { "id": "rajcata", "name": "Rajčata keříková", "price": "24,90 Kč/kg" },
+    { "id": "vodni-meloun", "name": "Vodní meloun", "price": "11,90 Kč/kg" },
+    { "id": "meloun-cukrovy", "name": "Meloun cukrový žlutý", "price": "34,90 Kč/kg" },
+    { "id": "avokado", "name": "Avokádo", "price": "14,90 Kč/ks" },
+    { "id": "brambory-rane", "name": "Brambory rané", "price": "29,90 Kč/2 kg" },
+    { "id": "ledovy-salat", "name": "Ledový salát", "price": "14,90 Kč/ks" },
+    { "id": "kofola", "name": "KOFOLA", "price": "89,90 Kč/4×2 l" },
+    { "id": "cola", "name": "Coca-Cola / Coca-Cola Zero", "price": "34,90 Kč/1,75 l" },
+    { "id": "svijansky-maz", "name": "SVIJANY Svijanský Máz", "price": "10,90 Kč/0,5 l" }
+  ]
+}
