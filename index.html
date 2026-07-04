@@ -11,7 +11,7 @@
         <h1>Recepty, spíž a nákupní seznam</h1>
         <p id="validity"></p>
         <p class="note">
-            100 receptů nezávislých na letáku – ingredience, které zrovna vidíš 🏷️ „v akci“, jsou bonus
+            111 receptů nezávislých na letáku – ingredience, které zrovna vidíš 🏷️ „v akci“, jsou bonus
             z aktuálního letáku Lidlu (<code>data/leaflet.json</code>, částečný ruční přepis reálné
             nabídky – uprav podle
             <a href="https://www.lidl.cz/c/aktualni-nabidka/a10008785" target="_blank" rel="noopener">lidl.cz/aktualni-nabidka</a>).
@@ -112,8 +112,10 @@
             <div id="recipe-list-preferences" class="recipe-grid"></div>
 
             <div class="build-list-bar">
-                <button type="button" id="build-list-btn">Sestavit nákupní seznam z vybraných receptů</button>
-                <span id="selected-count"></span>
+                <div class="build-list-bar-inner">
+                    <button type="button" id="build-list-btn">Sestavit nákupní seznam z vybraných receptů</button>
+                    <span id="selected-count"></span>
+                </div>
             </div>
 
             <div id="shopping-list-output" hidden>
