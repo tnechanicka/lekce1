@@ -55,7 +55,10 @@ is hand-written and GitHub Pages serves it as-is via Jekyll. `vendor/pdfjs` is a
   `applyActiveLeaflet()` — see "Saved leaflets" below.
 - `pantry` is a `Set` of flyer item ids, loaded from/synced to `localStorage`
   (`loadPantry`/`savePantry`). It is the single source of truth for "what I already
-  have" across both modes.
+  have" across both modes. The "Moje spíž" section is a native `<details>` (collapsed
+  by default, item count shown in the `<summary>` via `renderPantry`'s last line) so it
+  doesn't dominate the page — it's secondary to the two recipe modes, not the first
+  thing shown.
 - **Mode "Podle toho, co mám"** (`renderIngredientModeRecipes`): recipes are scored by
   how many `leafletIngredients` are in `pantry` and sorted by match fraction; with an
   empty pantry every recipe shows as a full match.

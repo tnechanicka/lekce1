@@ -71,6 +71,34 @@ h2 {
     padding-bottom: 0.25rem;
 }
 
+#pantry-details > summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid var(--lidl-yellow);
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+#pantry-details > summary::-webkit-details-marker {
+    display: none;
+}
+
+#pantry-details > summary::before {
+    content: "▸ ";
+}
+
+#pantry-details[open] > summary::before {
+    content: "▾ ";
+}
+
+#pantry-count {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--muted);
+}
+
 .leaflet-grid {
     display: flex;
     flex-wrap: wrap;
