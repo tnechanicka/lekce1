@@ -11,22 +11,49 @@
         <h1>Recepty z aktuálního letáku Lidlu</h1>
         <p id="validity"></p>
         <p class="note">
-            Pozn.: ceny a položky letáku jsou ukázková data (<code>data/leaflet.json</code>) –
-            uprav je ručně podle skutečné nabídky na
+            Pozn.: leták (<code>data/leaflet.json</code>) je částečný ruční přepis reálné nabídky –
+            uprav jej podle aktuálního letáku na
             <a href="https://www.lidl.cz/c/aktualni-nabidka/a10008785" target="_blank" rel="noopener">lidl.cz/aktualni-nabidka</a>.
         </p>
     </header>
 
     <main>
-        <section id="leaflet-section">
-            <h2>Co máš z letáku?</h2>
-            <p>Zaškrtni suroviny, které máš doma – appka podle nich seřadí recepty.</p>
-            <div id="leaflet-list" class="leaflet-grid"></div>
+        <section id="pantry-section">
+            <h2>Moje spíž</h2>
+            <p>Zaškrtni, co už doma máš z minulých nákupů – zůstane uložené i příště v tomto prohlížeči.</p>
+            <div id="pantry-list" class="leaflet-grid"></div>
         </section>
 
-        <section id="recipes-section">
-            <h2>Recepty</h2>
-            <div id="recipe-list" class="recipe-grid"></div>
+        <nav id="mode-tabs">
+            <button type="button" class="tab active" data-mode="ingredients">Podle toho, co mám</button>
+            <button type="button" class="tab" data-mode="preferences">Podle preferencí → nákupní seznam</button>
+        </nav>
+
+        <section id="mode-ingredients" class="mode-section">
+            <h2>Recepty podle surovin</h2>
+            <p>Recepty jsou seřazené podle toho, kolik surovin z letáku už máš ve spíži.</p>
+            <div id="recipe-list-ingredients" class="recipe-grid"></div>
+        </section>
+
+        <section id="mode-preferences" class="mode-section" hidden>
+            <h2>Vyber preference</h2>
+            <div id="filter-panel"></div>
+
+            <div id="recipe-list-preferences" class="recipe-grid"></div>
+
+            <div class="build-list-bar">
+                <button type="button" id="build-list-btn">Sestavit nákupní seznam z vybraných receptů</button>
+                <span id="selected-count"></span>
+            </div>
+
+            <div id="shopping-list-output" hidden>
+                <h2>Nákupní seznam</h2>
+                <div id="shopping-list"></div>
+
+                <h2>Recepty na zbytky</h2>
+                <p>Recepty, které využijí suroviny, co budeš mít doma navíc.</p>
+                <div id="leftover-recipes" class="recipe-grid"></div>
+            </div>
         </section>
     </main>
 

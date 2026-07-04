@@ -1,93 +1,209 @@
 [
   {
-    "id": "kureci-rizoto",
-    "name": "Kuřecí rizoto se zeleninou",
-    "emoji": "🍚",
+    "id": "grilovana-stehna-salat",
+    "name": "Grilovaná kuřecí stehna s ledovým salátem",
+    "emoji": "🍗",
+    "time": 40,
+    "servings": 4,
+    "tags": ["maso", "grilovani"],
+    "leafletIngredients": [
+      { "id": "kureci-stehna", "amount": "1 kg" },
+      { "id": "ledovy-salat", "amount": "1 ks" }
+    ],
+    "pantryIngredients": ["olej", "sůl", "pepř", "česnek", "citron"],
+    "instructions": [
+      "Kuřecí stehna potřeme olejem, solí, pepřem a prolisovaným česnekem.",
+      "Necháme alespoň 30 minut marinovat.",
+      "Grilujeme na středním ohni cca 25–30 minut do propečení.",
+      "Ledový salát natrháme, pokapeme citronovou šťávou a olejem a podáváme jako přílohu."
+    ]
+  },
+  {
+    "id": "krkovice-na-grilu",
+    "name": "Vepřová krkovice na grilu s meloun-avokádovým salátem",
+    "emoji": "🔥",
     "time": 35,
     "servings": 4,
-    "leafletIngredients": ["kureci-prsa", "cibule", "mrkev", "hrasek-mrazeny", "ryze", "cesnek"],
-    "pantryIngredients": ["olej", "sůl", "pepř", "vývar"],
+    "tags": ["maso", "grilovani"],
+    "leafletIngredients": [
+      { "id": "vepr-krkovice", "amount": "1 kg" },
+      { "id": "vodni-meloun", "amount": "0,5 kg" },
+      { "id": "avokado", "amount": "1 ks" }
+    ],
+    "pantryIngredients": ["olej", "sůl", "pepř", "limetka"],
     "instructions": [
-      "Cibuli a česnek najemno nakrájíme a orestujeme na oleji.",
-      "Přidáme na kostičky nakrájená kuřecí prsa a orestujeme dozlatova.",
-      "Vsypeme rýži, krátce orestujeme a zalijeme vývarem.",
-      "Přidáme nakrájenou mrkev, dusíme na mírném ohni cca 18 minut.",
-      "Na závěr vmícháme hrášek, dochutíme solí a pepřem."
+      "Krkovici naklepeme, osolíme, opepříme a potřeme olejem.",
+      "Grilujeme z obou stran dozlatova, cca 6–8 minut na každé straně.",
+      "Meloun a avokádo nakrájíme na kostky.",
+      "Zakapeme limetkovou šťávou, promícháme a podáváme jako osvěžující přílohu."
     ]
   },
   {
-    "id": "losos-s-brambory",
-    "name": "Pečený losos s bramborami a citronem",
-    "emoji": "🐟",
-    "time": 40,
-    "servings": 2,
-    "leafletIngredients": ["losos-filet", "brambory", "citron", "petrzelka", "cesnek"],
-    "pantryIngredients": ["olivový olej", "sůl", "pepř"],
-    "instructions": [
-      "Brambory nakrájíme na klínky, promícháme s olejem, solí a pepřem a dáme péct na 200 °C na 20 minut.",
-      "Lososí filet osolíme, opepříme a potřeme prolisovaným česnekem.",
-      "Přidáme lososa k bramborám a pečeme dalších 12–15 minut.",
-      "Před podáváním pokapeme citronovou šťávou a posypeme petrželkou."
-    ]
-  },
-  {
-    "id": "hovezi-boloonese",
-    "name": "Boloňské špagety",
-    "emoji": "🍝",
-    "time": 45,
-    "servings": 4,
-    "leafletIngredients": ["mleto-hovezi", "cibule", "mrkev", "rajcata", "cesnek", "testoviny"],
-    "pantryIngredients": ["olej", "sůl", "pepř", "bylinky"],
-    "instructions": [
-      "Cibuli, mrkev a česnek nakrájíme najemno a orestujeme na oleji.",
-      "Přidáme mleté maso a orestujeme dozlatova.",
-      "Zalijeme rajčaty, osolíme, opepříme a přidáme bylinky.",
-      "Necháme dusit na mírném ohni alespoň 25 minut.",
-      "Uvaříme těstoviny podle návodu a podáváme s omáčkou."
-    ]
-  },
-  {
-    "id": "plnena-paprika",
-    "name": "Plněná paprika s rýží",
-    "emoji": "🫑",
-    "time": 50,
-    "servings": 4,
-    "leafletIngredients": ["paprika", "mleto-hovezi", "ryze", "cibule", "rajcata"],
-    "pantryIngredients": ["olej", "sůl", "pepř", "vývar"],
-    "instructions": [
-      "Papriky zbavíme jádřinců a semínek.",
-      "Uvaříme rýži a smícháme s osmaženou cibulí a mletým masem.",
-      "Naplníme papriky směsí a dáme do hrnce se zalitými rajčaty a vývarem.",
-      "Dusíme doměkka asi 30 minut."
-    ]
-  },
-  {
-    "id": "zapecena-cuketa",
-    "name": "Zapečená cuketa se sýrem a vejci",
-    "emoji": "🥒",
-    "time": 30,
-    "servings": 3,
-    "leafletIngredients": ["cuketa", "vejce", "sunkovy-syr", "smetana-na-vareni", "cesnek"],
-    "pantryIngredients": ["sůl", "pepř", "olej"],
-    "instructions": [
-      "Cuketu nakrájíme na plátky a poskládáme do zapékací mísy.",
-      "Vejce rozšleháme se smetanou, solí, pepřem a prolisovaným česnekem.",
-      "Zalijeme cuketu, navrch dáme plátky sýra.",
-      "Pečeme na 190 °C asi 20 minut do zlatova."
-    ]
-  },
-  {
-    "id": "smazenice",
-    "name": "Míchaná vajíčka se zeleninou",
+    "id": "vejce-spekacky-snidane",
+    "name": "Rychlá snídaně s vejci a špekáčky",
     "emoji": "🍳",
     "time": 15,
     "servings": 2,
-    "leafletIngredients": ["vejce", "paprika", "cibule", "maslo"],
-    "pantryIngredients": ["sůl", "pepř"],
+    "tags": ["snidane", "rychle", "maso"],
+    "leafletIngredients": [
+      { "id": "vejce10", "amount": "4 ks" },
+      { "id": "spekacky", "amount": "2 ks" },
+      { "id": "maslo", "amount": "20 g" }
+    ],
+    "pantryIngredients": ["sůl", "pepř", "pažitka"],
     "instructions": [
-      "Cibuli a papriku nakrájíme na kostičky a orestujeme na másle.",
-      "Vejce rozšleháme, osolíme a opepříme.",
-      "Přidáme k zelenině a za stálého míchání usmažíme dozlatova."
+      "Špekáčky nakrájíme na kolečka a orestujeme na másle.",
+      "Přidáme rozšlehaná vejce se solí a pepřem.",
+      "Za stálého míchání usmažíme na měkko.",
+      "Posypeme pažitkou a podáváme."
+    ]
+  },
+  {
+    "id": "zapeceny-hermelin",
+    "name": "Zapečený hermelín s brambory rané",
+    "emoji": "🧀",
+    "time": 30,
+    "servings": 2,
+    "tags": ["vegetarianske", "rychle"],
+    "leafletIngredients": [
+      { "id": "hermelin", "amount": "2 ks" },
+      { "id": "brambory-rane", "amount": "500 g" }
+    ],
+    "pantryIngredients": ["olej", "sůl", "pepř", "brusinky"],
+    "instructions": [
+      "Brambory rané uvaříme doměkka ve slupce, osolíme.",
+      "Hermelín dáme do zapékací misky a pečeme na 200 °C cca 10 minut do rozpuštění.",
+      "Podáváme s brambory a brusinkami."
+    ]
+  },
+  {
+    "id": "losos-s-rajcaty",
+    "name": "Losos se zapečenými rajčaty",
+    "emoji": "🐟",
+    "time": 25,
+    "servings": 2,
+    "tags": ["ryba", "rychle"],
+    "leafletIngredients": [
+      { "id": "losos", "amount": "250 g" },
+      { "id": "rajcata", "amount": "300 g" }
+    ],
+    "pantryIngredients": ["olivový olej", "citron", "sůl", "pepř", "bylinky"],
+    "instructions": [
+      "Rajčata přepůlíme a dáme na plech s lososem.",
+      "Vše osolíme, opepříme, pokapeme olivovým olejem a posypeme bylinkami.",
+      "Pečeme na 200 °C asi 15 minut.",
+      "Podáváme s citronem."
+    ]
+  },
+  {
+    "id": "tunak-avokado-salat",
+    "name": "Tuňákový steak s avokádovým salátem",
+    "emoji": "🥑",
+    "time": 20,
+    "servings": 2,
+    "tags": ["ryba", "rychle"],
+    "leafletIngredients": [
+      { "id": "tunak-steak", "amount": "200 g" },
+      { "id": "avokado", "amount": "1 ks" },
+      { "id": "rajcata", "amount": "200 g" }
+    ],
+    "pantryIngredients": ["olivový olej", "limetka", "sůl", "pepř"],
+    "instructions": [
+      "Tuňákový steak osolíme, opepříme a orestujeme z obou stran na rozpálené pánvi (cca 1–2 minuty).",
+      "Avokádo a rajčata nakrájíme na kostky, zakapeme limetkou a olejem.",
+      "Steak nakrájíme na plátky a podáváme se salátem."
+    ]
+  },
+  {
+    "id": "krevety-s-rajcaty",
+    "name": "Krevety na česneku s rajčaty a bagetou",
+    "emoji": "🍤",
+    "time": 20,
+    "servings": 2,
+    "tags": ["ryba", "rychle"],
+    "leafletIngredients": [
+      { "id": "krevety", "amount": "300 g" },
+      { "id": "rajcata", "amount": "200 g" }
+    ],
+    "pantryIngredients": ["česnek", "olivový olej", "chilli", "bageta", "sůl"],
+    "instructions": [
+      "Na olivovém oleji orestujeme prolisovaný česnek a chilli.",
+      "Přidáme krevety a rajčata nakrájená na čtvrtky, krátce orestujeme.",
+      "Osolíme a podáváme s opečenou bagetou."
+    ]
+  },
+  {
+    "id": "sushi-vecere",
+    "name": "Rychlá sushi večeře",
+    "emoji": "🍣",
+    "time": 10,
+    "servings": 2,
+    "tags": ["ryba", "rychle"],
+    "leafletIngredients": [
+      { "id": "sushi", "amount": "2 balení" }
+    ],
+    "pantryIngredients": ["sójová omáčka", "wasabi"],
+    "instructions": [
+      "Sushi vyskládáme na talíř.",
+      "Podáváme se sójovou omáčkou a wasabi."
+    ]
+  },
+  {
+    "id": "letni-salat-meloun-avokado",
+    "name": "Letní salát s melounem a avokádem",
+    "emoji": "🥗",
+    "time": 15,
+    "servings": 4,
+    "tags": ["vegetarianske", "rychle"],
+    "leafletIngredients": [
+      { "id": "meloun-cukrovy", "amount": "0,5 kg" },
+      { "id": "avokado", "amount": "1 ks" },
+      { "id": "ledovy-salat", "amount": "0,5 ks" }
+    ],
+    "pantryIngredients": ["olivový olej", "limetka", "sůl", "feta"],
+    "instructions": [
+      "Meloun a avokádo nakrájíme na kostky, salát natrháme.",
+      "Vše smícháme, zakapeme limetkou a olivovým olejem.",
+      "Podle chuti osolíme a případně přidáme drobenou fetu."
+    ]
+  },
+  {
+    "id": "pecena-stehna-brambory-mozzarella",
+    "name": "Pečená kuřecí stehna s brambory rané a mozzarellou",
+    "emoji": "🍽️",
+    "time": 55,
+    "servings": 4,
+    "tags": ["maso"],
+    "leafletIngredients": [
+      { "id": "kureci-stehna", "amount": "1 kg" },
+      { "id": "brambory-rane", "amount": "1 kg" },
+      { "id": "mozzarella", "amount": "1 balení" }
+    ],
+    "pantryIngredients": ["olej", "bylinky", "sůl", "pepř"],
+    "instructions": [
+      "Stehna a přepůlené brambory rané osolíme, opepříme, potřeme olejem a bylinkami.",
+      "Dáme na plech a pečeme na 200 °C asi 40 minut.",
+      "Posledních 5 minut přidáme plátky mozzarelly, aby se rozpustila.",
+      "Podáváme rovnou z plechu."
+    ]
+  },
+  {
+    "id": "vejce-mozzarella-snidane",
+    "name": "Vaječná snídaně s mozzarellou a rajčaty",
+    "emoji": "🍅",
+    "time": 15,
+    "servings": 2,
+    "tags": ["vegetarianske", "rychle", "snidane"],
+    "leafletIngredients": [
+      { "id": "vejce10", "amount": "3 ks" },
+      { "id": "mozzarella", "amount": "1 balení" },
+      { "id": "rajcata", "amount": "200 g" }
+    ],
+    "pantryIngredients": ["olej", "bazalka", "sůl", "pepř"],
+    "instructions": [
+      "Rajčata nakrájíme na kostičky a orestujeme na oleji.",
+      "Přidáme rozšlehaná vejce, osolíme, opepříme a za míchání usmažíme.",
+      "Na závěr přidáme kostičky mozzarelly, aby se lehce rozpustila, a posypeme bazalkou."
     ]
   }
 ]
