@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recepty z letáku Lidlu</title>
+    <title>Recepty a nákupní seznam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Recepty z aktuálního letáku Lidlu</h1>
+        <h1>Recepty, spíž a nákupní seznam</h1>
         <p id="validity"></p>
         <p class="note">
-            Pozn.: leták (<code>data/leaflet.json</code>) je částečný ruční přepis reálné nabídky –
-            uprav jej podle aktuálního letáku na
-            <a href="https://www.lidl.cz/c/aktualni-nabidka/a10008785" target="_blank" rel="noopener">lidl.cz/aktualni-nabidka</a>.
+            100 receptů nezávislých na letáku – ingredience, které zrovna vidíš 🏷️ „v akci“, jsou bonus
+            z aktuálního letáku Lidlu (<code>data/leaflet.json</code>, částečný ruční přepis reálné
+            nabídky – uprav podle
+            <a href="https://www.lidl.cz/c/aktualni-nabidka/a10008785" target="_blank" rel="noopener">lidl.cz/aktualni-nabidka</a>).
         </p>
     </header>
 
@@ -72,8 +73,15 @@
         <section id="pantry-section">
             <details id="pantry-details">
                 <summary>Moje spíž <span id="pantry-count"></span></summary>
-                <p>Zaškrtni, co už doma máš z minulých nákupů – zůstane uložené i příště v tomto prohlížeči.</p>
+                <p>
+                    Základní potraviny, které lidé běžně mají doma. Zaškrtni, co máš – zůstane
+                    uložené i příště v tomto prohlížeči. Chybí ti tam něco? Připiš si vlastní položku.
+                </p>
                 <div id="pantry-list" class="leaflet-grid"></div>
+                <form id="pantry-add-form">
+                    <input type="text" id="pantry-add-input" placeholder="např. Kečup">
+                    <button type="submit">+ Přidat vlastní</button>
+                </form>
             </details>
         </section>
 
@@ -84,7 +92,7 @@
 
         <section id="mode-ingredients" class="mode-section">
             <h2>Recepty podle surovin</h2>
-            <p>Recepty jsou seřazené podle toho, kolik surovin z letáku už máš ve spíži.</p>
+            <p>Recepty jsou seřazené podle toho, kolik surovin už máš ve spíži (a jestli jsou zrovna sezónní).</p>
             <div id="recipe-list-ingredients" class="recipe-grid"></div>
         </section>
 

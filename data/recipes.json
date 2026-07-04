@@ -5,12 +5,47 @@
     "emoji": "🍗",
     "time": 40,
     "servings": 4,
-    "tags": ["maso", "grilovani"],
-    "leafletIngredients": [
-      { "id": "kureci-stehna", "amount": "1 kg" },
-      { "id": "ledovy-salat", "amount": "1 ks" }
+    "tags": [
+      "maso",
+      "grilovani"
     ],
-    "pantryIngredients": ["olej", "sůl", "pepř", "česnek", "citron"],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí horní a spodní stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "ledovy-salat",
+        "name": "Ledový salát",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Kuřecí stehna potřeme olejem, solí, pepřem a prolisovaným česnekem.",
       "Necháme alespoň 30 minut marinovat.",
@@ -24,13 +59,47 @@
     "emoji": "🔥",
     "time": 35,
     "servings": 4,
-    "tags": ["maso", "grilovani"],
-    "leafletIngredients": [
-      { "id": "vepr-krkovice", "amount": "1 kg" },
-      { "id": "vodni-meloun", "amount": "0,5 kg" },
-      { "id": "avokado", "amount": "1 ks" }
+    "tags": [
+      "maso",
+      "grilovani"
     ],
-    "pantryIngredients": ["olej", "sůl", "pepř", "limetka"],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřová krkovice bez kosti",
+        "amount": "1 kg"
+      },
+      {
+        "id": "vodni-meloun",
+        "name": "Vodní meloun",
+        "amount": "0,5 kg"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Krkovici naklepeme, osolíme, opepříme a potřeme olejem.",
       "Grilujeme z obou stran dozlatova, cca 6–8 minut na každé straně.",
@@ -44,13 +113,43 @@
     "emoji": "🍳",
     "time": 15,
     "servings": 2,
-    "tags": ["snidane", "rychle", "maso"],
-    "leafletIngredients": [
-      { "id": "vejce10", "amount": "4 ks" },
-      { "id": "spekacky", "amount": "2 ks" },
-      { "id": "maslo", "amount": "20 g" }
+    "tags": [
+      "snidane",
+      "rychle",
+      "maso"
     ],
-    "pantryIngredients": ["sůl", "pepř", "pažitka"],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "4 ks"
+      },
+      {
+        "id": "spekacky",
+        "name": "PIKOK Špekáčky",
+        "amount": "2 ks"
+      },
+      {
+        "id": "maslo",
+        "name": "MILKPOL Máslo",
+        "amount": "20 g"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pazitka",
+        "name": "Pažitka",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Špekáčky nakrájíme na kolečka a orestujeme na másle.",
       "Přidáme rozšlehaná vejce se solí a pepřem.",
@@ -64,12 +163,42 @@
     "emoji": "🧀",
     "time": 30,
     "servings": 2,
-    "tags": ["vegetarianske", "rychle"],
-    "leafletIngredients": [
-      { "id": "hermelin", "amount": "2 ks" },
-      { "id": "brambory-rane", "amount": "500 g" }
+    "tags": [
+      "vegetarianske",
+      "rychle"
     ],
-    "pantryIngredients": ["olej", "sůl", "pepř", "brusinky"],
+    "ingredients": [
+      {
+        "id": "hermelin",
+        "name": "SEDLČANSKÝ Hermelín Duopack",
+        "amount": "2 ks"
+      },
+      {
+        "id": "brambory-rane",
+        "name": "Brambory rané",
+        "amount": "500 g"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "brusinky",
+        "name": "Brusinky",
+        "amount": "2 lžíce"
+      }
+    ],
     "instructions": [
       "Brambory rané uvaříme doměkka ve slupce, osolíme.",
       "Hermelín dáme do zapékací misky a pečeme na 200 °C cca 10 minut do rozpuštění.",
@@ -82,12 +211,47 @@
     "emoji": "🐟",
     "time": 25,
     "servings": 2,
-    "tags": ["ryba", "rychle"],
-    "leafletIngredients": [
-      { "id": "losos", "amount": "250 g" },
-      { "id": "rajcata", "amount": "300 g" }
+    "tags": [
+      "ryba",
+      "rychle"
     ],
-    "pantryIngredients": ["olivový olej", "citron", "sůl", "pepř", "bylinky"],
+    "ingredients": [
+      {
+        "id": "losos",
+        "name": "Losos obecný, filet",
+        "amount": "250 g"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata keříková",
+        "amount": "300 g"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "bylinky-cerstve",
+        "name": "Bylinky",
+        "amount": "hrst"
+      }
+    ],
     "instructions": [
       "Rajčata přepůlíme a dáme na plech s lososem.",
       "Vše osolíme, opepříme, pokapeme olivovým olejem a posypeme bylinkami.",
@@ -101,13 +265,47 @@
     "emoji": "🥑",
     "time": 20,
     "servings": 2,
-    "tags": ["ryba", "rychle"],
-    "leafletIngredients": [
-      { "id": "tunak-steak", "amount": "200 g" },
-      { "id": "avokado", "amount": "1 ks" },
-      { "id": "rajcata", "amount": "200 g" }
+    "tags": [
+      "ryba",
+      "rychle"
     ],
-    "pantryIngredients": ["olivový olej", "limetka", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "tunak-steak",
+        "name": "Tuňák žlutoploutvý, steak",
+        "amount": "200 g"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata keříková",
+        "amount": "200 g"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Tuňákový steak osolíme, opepříme a orestujeme z obou stran na rozpálené pánvi (cca 1–2 minuty).",
       "Avokádo a rajčata nakrájíme na kostky, zakapeme limetkou a olejem.",
@@ -120,12 +318,47 @@
     "emoji": "🍤",
     "time": 20,
     "servings": 2,
-    "tags": ["ryba", "rychle"],
-    "leafletIngredients": [
-      { "id": "krevety", "amount": "300 g" },
-      { "id": "rajcata", "amount": "200 g" }
+    "tags": [
+      "ryba",
+      "rychle"
     ],
-    "pantryIngredients": ["česnek", "olivový olej", "chilli", "bageta", "sůl"],
+    "ingredients": [
+      {
+        "id": "krevety",
+        "name": "Krevety celé vařené",
+        "amount": "300 g"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata keříková",
+        "amount": "200 g"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "chilli",
+        "name": "Chilli",
+        "amount": "1 ks"
+      },
+      {
+        "id": "bageta",
+        "name": "Bageta",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Na olivovém oleji orestujeme prolisovaný česnek a chilli.",
       "Přidáme krevety a rajčata nakrájená na čtvrtky, krátce orestujeme.",
@@ -138,11 +371,27 @@
     "emoji": "🍣",
     "time": 10,
     "servings": 2,
-    "tags": ["ryba", "rychle"],
-    "leafletIngredients": [
-      { "id": "sushi", "amount": "2 balení" }
+    "tags": [
+      "ryba",
+      "rychle"
     ],
-    "pantryIngredients": ["sójová omáčka", "wasabi"],
+    "ingredients": [
+      {
+        "id": "sushi",
+        "name": "Sushi",
+        "amount": "2 balení"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "wasabi",
+        "name": "Wasabi",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Sushi vyskládáme na talíř.",
       "Podáváme se sójovou omáčkou a wasabi."
@@ -154,13 +403,47 @@
     "emoji": "🥗",
     "time": 15,
     "servings": 4,
-    "tags": ["vegetarianske", "rychle"],
-    "leafletIngredients": [
-      { "id": "meloun-cukrovy", "amount": "0,5 kg" },
-      { "id": "avokado", "amount": "1 ks" },
-      { "id": "ledovy-salat", "amount": "0,5 ks" }
+    "tags": [
+      "vegetarianske",
+      "rychle"
     ],
-    "pantryIngredients": ["olivový olej", "limetka", "sůl", "feta"],
+    "ingredients": [
+      {
+        "id": "meloun-cukrovy",
+        "name": "Meloun cukrový žlutý",
+        "amount": "0,5 kg"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "ledovy-salat",
+        "name": "Ledový salát",
+        "amount": "0,5 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "feta",
+        "name": "Feta",
+        "amount": "50 g"
+      }
+    ],
     "instructions": [
       "Meloun a avokádo nakrájíme na kostky, salát natrháme.",
       "Vše smícháme, zakapeme limetkou a olivovým olejem.",
@@ -173,13 +456,46 @@
     "emoji": "🍽️",
     "time": 55,
     "servings": 4,
-    "tags": ["maso"],
-    "leafletIngredients": [
-      { "id": "kureci-stehna", "amount": "1 kg" },
-      { "id": "brambory-rane", "amount": "1 kg" },
-      { "id": "mozzarella", "amount": "1 balení" }
+    "tags": [
+      "maso"
     ],
-    "pantryIngredients": ["olej", "bylinky", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí horní a spodní stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "brambory-rane",
+        "name": "Brambory rané",
+        "amount": "1 kg"
+      },
+      {
+        "id": "mozzarella",
+        "name": "PILOS Mozzarella",
+        "amount": "1 balení"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "bylinky-cerstve",
+        "name": "Bylinky",
+        "amount": "hrst"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Stehna a přepůlené brambory rané osolíme, opepříme, potřeme olejem a bylinkami.",
       "Dáme na plech a pečeme na 200 °C asi 40 minut.",
@@ -193,13 +509,48 @@
     "emoji": "🍅",
     "time": 15,
     "servings": 2,
-    "tags": ["vegetarianske", "rychle", "snidane"],
-    "leafletIngredients": [
-      { "id": "vejce10", "amount": "3 ks" },
-      { "id": "mozzarella", "amount": "1 balení" },
-      { "id": "rajcata", "amount": "200 g" }
+    "tags": [
+      "vegetarianske",
+      "rychle",
+      "snidane"
     ],
-    "pantryIngredients": ["olej", "bazalka", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "3 ks"
+      },
+      {
+        "id": "mozzarella",
+        "name": "PILOS Mozzarella",
+        "amount": "1 balení"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata keříková",
+        "amount": "200 g"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "bazalka",
+        "name": "Bazalka",
+        "amount": "hrst"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Rajčata nakrájíme na kostičky a orestujeme na oleji.",
       "Přidáme rozšlehaná vejce, osolíme, opepříme a za míchání usmažíme.",
@@ -212,11 +563,52 @@
     "emoji": "🌶️",
     "time": 45,
     "servings": 4,
-    "tags": ["maso", "asijske"],
-    "leafletIngredients": [
-      { "id": "kureci-stehna", "amount": "1 kg" }
+    "tags": [
+      "maso",
+      "asijske"
     ],
-    "pantryIngredients": ["sójová omáčka", "med", "česnek", "zázvor", "chilli omáčka", "sezamová semínka", "sezamový olej"],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí horní a spodní stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "zazvor",
+        "name": "Zázvor",
+        "amount": "kousek"
+      },
+      {
+        "id": "chilli-omacka",
+        "name": "Chilli omáčka",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "sezamova-seminka",
+        "name": "Sezamová semínka",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "sezamovy-olej",
+        "name": "Sezamový olej",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Stehna omyjeme, osušíme a marinujeme alespoň hodinu ve směsi sójové omáčky, medu, prolisovaného česneku, zázvoru a chilli omáčky.",
       "Na pánvi rozehřejeme sezamový olej a stehna opečeme dozlatova z obou stran.",
@@ -230,12 +622,51 @@
     "emoji": "🍯",
     "time": 50,
     "servings": 4,
-    "tags": ["maso"],
-    "leafletIngredients": [
-      { "id": "kureci-stehna", "amount": "1 kg" },
-      { "id": "brambory-rane", "amount": "1 kg" }
+    "tags": [
+      "maso"
     ],
-    "pantryIngredients": ["med", "hořčice", "olej", "sůl", "pepř", "rozmarýn"],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí horní a spodní stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "brambory-rane",
+        "name": "Brambory rané",
+        "amount": "1 kg"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "rozmaryn",
+        "name": "Rozmarýn",
+        "amount": "snítka"
+      }
+    ],
     "instructions": [
       "Smícháme med, hořčici, olej, sůl, pepř a rozmarýn.",
       "Stehna touto směsí potřeme a necháme alespoň 30 minut marinovat.",
@@ -249,11 +680,51 @@
     "emoji": "🍖",
     "time": 60,
     "servings": 4,
-    "tags": ["maso"],
-    "leafletIngredients": [
-      { "id": "vepr-krkovice", "amount": "1 kg" }
+    "tags": [
+      "maso"
     ],
-    "pantryIngredients": ["med", "hořčice", "cibule", "česnek", "olej", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřová krkovice bez kosti",
+        "amount": "1 kg"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Cibuli a česnek nakrájíme a rozprostřeme na dno pekáčku.",
       "Krkovici osolíme, opepříme, položíme na cibuli a potřeme směsí medu a hořčice.",
@@ -267,12 +738,47 @@
     "emoji": "🥤",
     "time": 40,
     "servings": 4,
-    "tags": ["maso", "grilovani"],
-    "leafletIngredients": [
-      { "id": "vepr-krkovice", "amount": "1 kg" },
-      { "id": "kofola", "amount": "0,5 l" }
+    "tags": [
+      "maso",
+      "grilovani"
     ],
-    "pantryIngredients": ["česnek", "hořčice", "olej", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřová krkovice bez kosti",
+        "amount": "1 kg"
+      },
+      {
+        "id": "kofola",
+        "name": "KOFOLA",
+        "amount": "0,5 l"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Krkovici zalijeme Kofolou smíchanou s prolisovaným česnekem a hořčicí a necháme marinovat v lednici alespoň 4 hodiny (ideálně přes noc).",
       "Maso vyjmeme, osušíme, osolíme a opepříme.",
@@ -286,12 +792,52 @@
     "emoji": "🍺",
     "time": 40,
     "servings": 4,
-    "tags": ["maso", "grilovani"],
-    "leafletIngredients": [
-      { "id": "vepr-krkovice", "amount": "1 kg" },
-      { "id": "svijansky-maz", "amount": "0,5 l" }
+    "tags": [
+      "maso",
+      "grilovani"
     ],
-    "pantryIngredients": ["hořčice", "med", "česnek", "olej", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřová krkovice bez kosti",
+        "amount": "1 kg"
+      },
+      {
+        "id": "svijansky-maz",
+        "name": "SVIJANY Svijanský Máz",
+        "amount": "0,5 l"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Smícháme pivo, hořčici, med, prolisovaný česnek a olej.",
       "Krkovici zalijeme marinádou a necháme v lednici odležet alespoň 2 hodiny.",
@@ -305,12 +851,53 @@
     "emoji": "🍱",
     "time": 25,
     "servings": 2,
-    "tags": ["ryba", "asijske", "rychle"],
-    "leafletIngredients": [
-      { "id": "losos", "amount": "250 g" },
-      { "id": "avokado", "amount": "1 ks" }
+    "tags": [
+      "ryba",
+      "asijske",
+      "rychle"
     ],
-    "pantryIngredients": ["sójová omáčka", "med", "zázvor", "česnek", "rýže", "limetka"],
+    "ingredients": [
+      {
+        "id": "losos",
+        "name": "Losos obecný, filet",
+        "amount": "250 g"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "zazvor",
+        "name": "Zázvor",
+        "amount": "kousek"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Smícháme sójovou omáčku, med, zázvor a česnek na teriyaki marinádu.",
       "Lososa v marinádě necháme alespoň 15 minut odležet.",
@@ -324,11 +911,53 @@
     "emoji": "🍛",
     "time": 20,
     "servings": 2,
-    "tags": ["ryba", "asijske", "rychle"],
-    "leafletIngredients": [
-      { "id": "krevety", "amount": "300 g" }
+    "tags": [
+      "ryba",
+      "asijske",
+      "rychle"
     ],
-    "pantryIngredients": ["kokosové mléko", "kari koření nebo pasta", "cibule", "česnek", "rýže", "koriandr", "limetka"],
+    "ingredients": [
+      {
+        "id": "krevety",
+        "name": "Krevety celé vařené",
+        "amount": "300 g"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "200 ml"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Kari koření nebo pasta",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "koriandr",
+        "name": "Koriandr",
+        "amount": "hrst"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Cibuli a česnek orestujeme, přidáme kari koření nebo pastu a krátce orestujeme.",
       "Zalijeme kokosovým mlékem a necháme provařit.",
@@ -342,12 +971,42 @@
     "emoji": "🧈",
     "time": 25,
     "servings": 2,
-    "tags": ["vegetarianske", "rychle"],
-    "leafletIngredients": [
-      { "id": "hermelin", "amount": "2 ks" },
-      { "id": "vejce10", "amount": "1 ks" }
+    "tags": [
+      "vegetarianske",
+      "rychle"
     ],
-    "pantryIngredients": ["hladká mouka", "strouhanka", "olej", "brusinky"],
+    "ingredients": [
+      {
+        "id": "hermelin",
+        "name": "SEDLČANSKÝ Hermelín Duopack",
+        "amount": "2 ks"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "1 ks"
+      },
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "50 g"
+      },
+      {
+        "id": "strouhanka",
+        "name": "Strouhanka",
+        "amount": "50 g"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "brusinky",
+        "name": "Brusinky",
+        "amount": "2 lžíce"
+      }
+    ],
     "instructions": [
       "Hermelín obalíme postupně v mouce, rozšlehaném vejci a strouhance.",
       "Pro jistotu obalíme ještě jednou ve vejci a strouhance a na chvíli dáme zchladit do lednice.",
@@ -361,11 +1020,33 @@
     "emoji": "🔥",
     "time": 20,
     "servings": 2,
-    "tags": ["maso", "grilovani", "rychle"],
-    "leafletIngredients": [
-      { "id": "hermelin", "amount": "2 ks" }
+    "tags": [
+      "maso",
+      "grilovani",
+      "rychle"
     ],
-    "pantryIngredients": ["šunka", "česnek", "olej"],
+    "ingredients": [
+      {
+        "id": "hermelin",
+        "name": "SEDLČANSKÝ Hermelín Duopack",
+        "amount": "2 ks"
+      },
+      {
+        "id": "sunka",
+        "name": "Šunka",
+        "amount": "50 g"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "olej",
+        "name": "Olej",
+        "amount": "2 lžíce"
+      }
+    ],
     "instructions": [
       "Hermelín podélně nakrojíme, ale ne až do kraje, aby vznikla kapsa.",
       "Vetřeme dovnitř prolisovaný česnek a vložíme plátek šunky.",
@@ -379,12 +1060,53 @@
     "emoji": "🥙",
     "time": 20,
     "servings": 2,
-    "tags": ["ryba", "asijske", "rychle"],
-    "leafletIngredients": [
-      { "id": "tunak-steak", "amount": "200 g" },
-      { "id": "avokado", "amount": "1 ks" }
+    "tags": [
+      "ryba",
+      "asijske",
+      "rychle"
     ],
-    "pantryIngredients": ["rýže", "sójová omáčka", "sezamový olej", "sezamová semínka", "okurka", "limetka"],
+    "ingredients": [
+      {
+        "id": "tunak-steak",
+        "name": "Tuňák žlutoploutvý, steak",
+        "amount": "200 g"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "sezamovy-olej",
+        "name": "Sezamový olej",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "sezamova-seminka",
+        "name": "Sezamová semínka",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Tuňákový steak osolíme a na rozpálené pánvi na sezamovém oleji prudce opečeme z obou stran, uvnitř zůstane narůžovělý.",
       "Necháme chvíli odpočinout a nakrájíme na kostky.",
@@ -398,12 +1120,47 @@
     "emoji": "🍉",
     "time": 10,
     "servings": 4,
-    "tags": ["vegetarianske", "rychle"],
-    "leafletIngredients": [
-      { "id": "vodni-meloun", "amount": "0,5 kg" },
-      { "id": "mozzarella", "amount": "1 balení" }
+    "tags": [
+      "vegetarianske",
+      "rychle"
     ],
-    "pantryIngredients": ["bazalka", "olivový olej", "balzamikový ocet", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "vodni-meloun",
+        "name": "Vodní meloun",
+        "amount": "0,5 kg"
+      },
+      {
+        "id": "mozzarella",
+        "name": "PILOS Mozzarella",
+        "amount": "1 balení"
+      },
+      {
+        "id": "bazalka",
+        "name": "Bazalka",
+        "amount": "hrst"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "balzamikovy-ocet",
+        "name": "Balzamikový ocet",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Meloun nakrájíme na kostky nebo plátky, mozzarellu na kousky.",
       "Střídavě naskládáme na talíř s lístky bazalky.",
@@ -416,11 +1173,47 @@
     "emoji": "🐠",
     "time": 25,
     "servings": 2,
-    "tags": ["ryba", "grilovani"],
-    "leafletIngredients": [
-      { "id": "prazma", "amount": "400 g" }
+    "tags": [
+      "ryba",
+      "grilovani"
     ],
-    "pantryIngredients": ["olivový olej", "česnek", "petržel", "citron", "rozmarýn", "tymián"],
+    "ingredients": [
+      {
+        "id": "prazma",
+        "name": "Pražma královská",
+        "amount": "400 g"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "petrzelka",
+        "name": "Petržel",
+        "amount": "hrst"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      },
+      {
+        "id": "rozmaryn",
+        "name": "Rozmarýn",
+        "amount": "snítka"
+      },
+      {
+        "id": "tymian",
+        "name": "Tymián",
+        "amount": "snítka"
+      }
+    ],
     "instructions": [
       "Do kůže ryby uděláme z obou stran několik zářezů.",
       "Z olivového oleje, prolisovaného česneku a petržele připravíme marinádu a vetřeme ji do ryby.",
@@ -434,12 +1227,43 @@
     "emoji": "🧈",
     "time": 15,
     "servings": 2,
-    "tags": ["ryba", "grilovani", "rychle"],
-    "leafletIngredients": [
-      { "id": "kanic-filet", "amount": "200 g" },
-      { "id": "maslo", "amount": "30 g" }
+    "tags": [
+      "ryba",
+      "grilovani",
+      "rychle"
     ],
-    "pantryIngredients": ["bylinky", "citron", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "kanic-filet",
+        "name": "Kanic filet",
+        "amount": "200 g"
+      },
+      {
+        "id": "maslo",
+        "name": "MILKPOL Máslo",
+        "amount": "30 g"
+      },
+      {
+        "id": "bylinky-cerstve",
+        "name": "Bylinky",
+        "amount": "hrst"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Máslo smícháme s nasekanými bylinkami a citronovou šťávou.",
       "Filet osolíme, opepříme a grilujeme na roštu 3–4 minuty z každé strany.",
@@ -452,11 +1276,38 @@
     "emoji": "🌭",
     "time": 15,
     "servings": 4,
-    "tags": ["maso", "grilovani", "rychle"],
-    "leafletIngredients": [
-      { "id": "spekacky", "amount": "4 ks" }
+    "tags": [
+      "maso",
+      "grilovani",
+      "rychle"
     ],
-    "pantryIngredients": ["hořčice", "křen", "chléb", "cibule"],
+    "ingredients": [
+      {
+        "id": "spekacky",
+        "name": "PIKOK Špekáčky",
+        "amount": "4 ks"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "kren",
+        "name": "Křen",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      }
+    ],
     "instructions": [
       "Špekáčky lehce nařízneme do kříže, aby se hezky rozevřely.",
       "Grilujeme na středním ohni, dokud se kůžička nezačne rozevírat a špekáček nezezlátne.",
@@ -469,11 +1320,43 @@
     "emoji": "🍞",
     "time": 10,
     "servings": 2,
-    "tags": ["maso", "rychle", "snidane"],
-    "leafletIngredients": [
-      { "id": "pikok-maso", "amount": "150 g" }
+    "tags": [
+      "maso",
+      "rychle",
+      "snidane"
     ],
-    "pantryIngredients": ["chléb", "cibule", "okurka", "sůl", "pepř"],
+    "ingredients": [
+      {
+        "id": "pikok-maso",
+        "name": "PIKOK Vepřové maso ve skle",
+        "amount": "150 g"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Chléb opečeme na sucho nebo v topinkovači.",
       "Na topinku naneseme vepřové maso ve skle.",
@@ -486,12 +1369,53 @@
     "emoji": "🥑",
     "time": 12,
     "servings": 2,
-    "tags": ["vegetarianske", "rychle", "snidane"],
-    "leafletIngredients": [
-      { "id": "avokado", "amount": "1 ks" },
-      { "id": "vejce10", "amount": "2 ks" }
+    "tags": [
+      "vegetarianske",
+      "rychle",
+      "snidane"
     ],
-    "pantryIngredients": ["chléb", "citron", "chilli vločky", "sůl", "pepř", "olivový olej"],
+    "ingredients": [
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "1 ks"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      },
+      {
+        "id": "chilli-vlocky",
+        "name": "Chilli vločky",
+        "amount": "špetka"
+      },
+      {
+        "id": "sul",
+        "name": "Sůl",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "pepr",
+        "name": "Pepř",
+        "amount": "dle chuti"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      }
+    ],
     "instructions": [
       "Chléb opečeme dozlatova.",
       "Avokádo rozmačkáme s citronovou šťávou, solí a pepřem a natřeme na topinku.",
@@ -505,15 +1429,2727 @@
     "emoji": "🌿",
     "time": 10,
     "servings": 4,
-    "tags": ["vegetarianske", "rychle"],
-    "leafletIngredients": [
-      { "id": "meloun-cukrovy", "amount": "0,5 kg" }
+    "tags": [
+      "vegetarianske",
+      "rychle"
     ],
-    "pantryIngredients": ["feta", "máta", "olivový olej", "limetka", "černý pepř"],
+    "ingredients": [
+      {
+        "id": "meloun-cukrovy",
+        "name": "Meloun cukrový žlutý",
+        "amount": "0,5 kg"
+      },
+      {
+        "id": "feta",
+        "name": "Feta",
+        "amount": "50 g"
+      },
+      {
+        "id": "mata",
+        "name": "Máta",
+        "amount": "hrst"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "limetka",
+        "name": "Limetka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "pepr",
+        "name": "Černý pepř",
+        "amount": "dle chuti"
+      }
+    ],
     "instructions": [
       "Meloun nakrájíme na kostky.",
       "Přidáme drobenou fetu a nasekanou mátu.",
       "Zakápneme olivovým olejem a limetkou, na závěr pomeleme černý pepř."
+    ]
+  },
+  {
+    "id": "ovesna-kase-ovoce",
+    "name": "Ovesná kaše s ovocem a medem",
+    "emoji": "🥣",
+    "time": 10,
+    "servings": 1,
+    "tags": [
+      "snidane",
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "ovesne-vlocky",
+        "name": "Ovesné vločky",
+        "amount": "60 g"
+      },
+      {
+        "id": "mleko",
+        "name": "Mléko",
+        "amount": "250 ml"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "banan",
+        "name": "Banán",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Vločky svaříme s mlékem na mírném ohni asi 5 minut za míchání.",
+      "Banán nakrájíme na kolečka.",
+      "Kaši přendáme do misky, ozdobíme banánem a zakápneme medem."
+    ]
+  },
+  {
+    "id": "palacinky-klasicke",
+    "name": "Klasické palačinky",
+    "emoji": "🥞",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "snidane",
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "200 g"
+      },
+      {
+        "id": "mleko",
+        "name": "Mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "cukr",
+        "name": "Cukr",
+        "amount": "1 lžíce"
+      }
+    ],
+    "instructions": [
+      "Vejce, mléko, mouku a cukr smícháme na hladké těsto.",
+      "Na rozehřáté pánvi smažíme tenké palačinky z obou stran dozlatova.",
+      "Podáváme s marmeládou, čokoládou nebo ovocem dle chuti."
+    ]
+  },
+  {
+    "id": "toustovy-sendvic-sunka-syr",
+    "name": "Toustový sendvič se šunkou a sýrem",
+    "emoji": "🥪",
+    "time": 10,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "rychle",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "chleba",
+        "name": "Toustový chléb",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "sunka",
+        "name": "Šunka",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "maslo",
+        "name": "Máslo",
+        "amount": "20 g"
+      }
+    ],
+    "instructions": [
+      "Chléb potřeme máslem, naskládáme šunku a sýr.",
+      "Opékáme na pánvi nebo v sendvičovači z obou stran do zlatova a rozpuštění sýra."
+    ]
+  },
+  {
+    "id": "jogurt-s-granolou",
+    "name": "Jogurt s granolou a ovocem",
+    "emoji": "🍓",
+    "time": 5,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "jogurt-bily",
+        "name": "Bílý jogurt",
+        "amount": "300 g"
+      },
+      {
+        "id": "granola",
+        "name": "Granola",
+        "amount": "60 g"
+      },
+      {
+        "id": "ovoce-sezonni",
+        "name": "Sezónní ovoce",
+        "amount": "150 g"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "1 lžíce"
+      }
+    ],
+    "instructions": [
+      "Jogurt rozdělíme do misek.",
+      "Přidáme granolu a nakrájené ovoce.",
+      "Zakápneme medem a hned podáváme."
+    ]
+  },
+  {
+    "id": "smazenice-se-slaninou",
+    "name": "Míchaná vajíčka se slaninou",
+    "emoji": "🍳",
+    "time": 10,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "rychle",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "4 ks"
+      },
+      {
+        "id": "slanina",
+        "name": "Slanina",
+        "amount": "80 g"
+      },
+      {
+        "id": "maslo",
+        "name": "Máslo",
+        "amount": "10 g"
+      }
+    ],
+    "instructions": [
+      "Slaninu orestujeme dokřupava na pánvi.",
+      "Přidáme rozšlehaná vejce a máslo.",
+      "Za stálého míchání usmažíme na měkko."
+    ]
+  },
+  {
+    "id": "ovocne-smoothie",
+    "name": "Ovocné smoothie s banánem a špenátem",
+    "emoji": "🥤",
+    "time": 5,
+    "servings": 1,
+    "tags": [
+      "snidane",
+      "rychle",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "id": "banan",
+        "name": "Banán",
+        "amount": "1 ks"
+      },
+      {
+        "id": "spenat",
+        "name": "Špenát čerstvý",
+        "amount": "30 g"
+      },
+      {
+        "id": "mleko",
+        "name": "Mléko nebo rostlinný nápoj",
+        "amount": "250 ml"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "1 lžíce"
+      }
+    ],
+    "instructions": [
+      "Všechny suroviny dáme do mixéru.",
+      "Rozmixujeme dohladka a hned podáváme."
+    ]
+  },
+  {
+    "id": "vejce-benedikt",
+    "name": "Vejce Benedikt na anglické mufince",
+    "emoji": "🍳",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "4 ks"
+      },
+      {
+        "id": "anglicka-mufinka",
+        "name": "Anglická mufinka",
+        "amount": "2 ks"
+      },
+      {
+        "id": "sunka",
+        "name": "Šunka",
+        "amount": "2 plátky"
+      },
+      {
+        "id": "maslo",
+        "name": "Máslo",
+        "amount": "50 g"
+      }
+    ],
+    "instructions": [
+      "Vejce uvaříme ztracená v mírně octové vodě asi 3 minuty.",
+      "Mufinky přepůlíme, opečeme a položíme na ně šunku.",
+      "Přidáme ztracené vejce a rozpuštěné máslo, podáváme ihned."
+    ]
+  },
+  {
+    "id": "musli-mleko",
+    "name": "Müsli s mlékem a ořechy",
+    "emoji": "🥣",
+    "time": 5,
+    "servings": 1,
+    "tags": [
+      "snidane",
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "musli",
+        "name": "Müsli",
+        "amount": "60 g"
+      },
+      {
+        "id": "mleko",
+        "name": "Mléko",
+        "amount": "200 ml"
+      },
+      {
+        "id": "orechy",
+        "name": "Ořechy",
+        "amount": "20 g"
+      }
+    ],
+    "instructions": [
+      "Müsli zalijeme mlékem.",
+      "Posypeme nasekanými ořechy a podáváme."
+    ]
+  },
+  {
+    "id": "rychla-snidane-tvaroh",
+    "name": "Tvaroh s ředkvičkami na chlebu",
+    "emoji": "🥖",
+    "time": 8,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "tvaroh",
+        "name": "Tvaroh",
+        "amount": "150 g"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "2 krajíce"
+      },
+      {
+        "id": "redkvicky",
+        "name": "Ředkvičky",
+        "amount": "5 ks"
+      },
+      {
+        "id": "pazitka",
+        "name": "Pažitka",
+        "amount": "hrst"
+      }
+    ],
+    "instructions": [
+      "Tvaroh rozmícháme s nasekanou pažitkou.",
+      "Namažeme na chléb a ozdobíme plátky ředkviček."
+    ]
+  },
+  {
+    "id": "snidanovy-burrito",
+    "name": "Snídaňové burrito s vejci a fazolemi",
+    "emoji": "🌯",
+    "time": 15,
+    "servings": 2,
+    "tags": [
+      "snidane",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "tortilla",
+        "name": "Tortilla",
+        "amount": "2 ks"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "3 ks"
+      },
+      {
+        "id": "fazole",
+        "name": "Fazole",
+        "amount": "100 g"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "50 g"
+      }
+    ],
+    "instructions": [
+      "Vejce rozšleháme a usmažíme na míchaná.",
+      "Fazole prohřejeme a rozprostřeme na tortillu spolu s vejci a sýrem.",
+      "Zabalíme do rulády a podáváme."
+    ]
+  },
+  {
+    "id": "kureci-vyvar-nudlova",
+    "name": "Slepičí vývar s nudlemi",
+    "emoji": "🍲",
+    "time": 60,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí maso",
+        "amount": "300 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "2 ks"
+      },
+      {
+        "id": "celer",
+        "name": "Celer",
+        "amount": "100 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Nudle na vývar",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Kuřecí maso s mrkví a celerem vaříme v osolené vodě asi 45 minut doměkka.",
+      "Maso vyjmeme, nakrájíme na kousky a vrátíme zpět do vývaru.",
+      "Přidáme nudle a krátce provaříme."
+    ]
+  },
+  {
+    "id": "brokolicova-krem-polevka",
+    "name": "Krémová brokolicová polévka",
+    "emoji": "🥦",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "brokolice",
+        "name": "Brokolice",
+        "amount": "500 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "100 ml"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "bujon",
+        "name": "Zeleninový vývar",
+        "amount": "1 l"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme, přidáme brokolici a zalijeme vývarem.",
+      "Vaříme doměkka asi 15 minut.",
+      "Rozmixujeme dohladka a dochutíme smetanou."
+    ]
+  },
+  {
+    "id": "gulasova-polevka",
+    "name": "Gulášová polévka",
+    "emoji": "🍛",
+    "time": 90,
+    "servings": 6,
+    "tags": [
+      "polevka",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "400 g"
+      },
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "300 g"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "2 ks"
+      },
+      {
+        "id": "paprika-koreni",
+        "name": "Mletá paprika",
+        "amount": "1 lžíce"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme dozlatova, přidáme maso nakrájené na kostky a orestujeme.",
+      "Vmícháme mletou papriku, zalijeme vodou a dusíme asi 60 minut.",
+      "Přidáme brambory na kostky a vaříme doměkka."
+    ]
+  },
+  {
+    "id": "cocova-polevka",
+    "name": "Čočková polévka s uzeninou",
+    "emoji": "🍲",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "cocka",
+        "name": "Čočka",
+        "amount": "250 g"
+      },
+      {
+        "id": "klobasa",
+        "name": "Uzenina",
+        "amount": "150 g"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      }
+    ],
+    "instructions": [
+      "Čočku propláchneme a vaříme v osolené vodě asi 25 minut.",
+      "Cibuli, česnek a uzeninu nakrájíme a orestujeme.",
+      "Přidáme k čočce a společně krátce provaříme."
+    ]
+  },
+  {
+    "id": "rajska-polevka-ryzi",
+    "name": "Rajská polévka s rýží",
+    "emoji": "🍅",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "rajcata-loupana",
+        "name": "Rajčata loupaná",
+        "amount": "400 g"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "80 g"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "bujon",
+        "name": "Zeleninový vývar",
+        "amount": "1 l"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme, přidáme rajčata a vývar.",
+      "Přivedeme k varu a vaříme 15 minut.",
+      "Rýži uvaříme zvlášť a přidáme do talíře při podávání."
+    ]
+  },
+  {
+    "id": "dynova-krem-polevka",
+    "name": "Dýňová krémová polévka se zázvorem",
+    "emoji": "🎃",
+    "time": 35,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "vegan",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "dyne",
+        "name": "Dýně",
+        "amount": "600 g"
+      },
+      {
+        "id": "zazvor",
+        "name": "Zázvor",
+        "amount": "kousek"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "200 ml"
+      }
+    ],
+    "instructions": [
+      "Dýni a cibuli orestujeme se zázvorem.",
+      "Zalijeme vodou a vaříme doměkka asi 20 minut.",
+      "Rozmixujeme, zjemníme kokosovým mlékem."
+    ]
+  },
+  {
+    "id": "gazpacho",
+    "name": "Studené gazpacho",
+    "emoji": "🥤",
+    "time": 15,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "vegan",
+      "rychle",
+      "salat"
+    ],
+    "ingredients": [
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "500 g"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Zeleninu nakrájíme na kousky.",
+      "Rozmixujeme s olivovým olejem dohladka.",
+      "Necháme vychladit v lednici a podáváme studené."
+    ]
+  },
+  {
+    "id": "minestrone",
+    "name": "Italské minestrone se zeleninou a těstovinami",
+    "emoji": "🍝",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "polevka",
+      "vegetarianske",
+      "italska"
+    ],
+    "ingredients": [
+      {
+        "id": "testoviny",
+        "name": "Malé těstoviny",
+        "amount": "100 g"
+      },
+      {
+        "id": "fazole",
+        "name": "Fazole",
+        "amount": "200 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "2 ks"
+      },
+      {
+        "id": "rajcata-loupana",
+        "name": "Rajčata loupaná",
+        "amount": "400 g"
+      }
+    ],
+    "instructions": [
+      "Mrkev orestujeme, přidáme rajčata a zalijeme vodou.",
+      "Přidáme fazole a vaříme 15 minut.",
+      "Přisypeme těstoviny a dovaříme doměkka."
+    ]
+  },
+  {
+    "id": "spagety-aglio-olio",
+    "name": "Špagety aglio e olio",
+    "emoji": "🍝",
+    "time": 20,
+    "servings": 4,
+    "tags": [
+      "rychle",
+      "testoviny",
+      "vegetarianske",
+      "italska"
+    ],
+    "ingredients": [
+      {
+        "id": "spagety",
+        "name": "Špagety",
+        "amount": "400 g"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "4 stroužky"
+      },
+      {
+        "id": "chilli",
+        "name": "Chilli papričky",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "80 ml"
+      }
+    ],
+    "instructions": [
+      "Špagety uvaříme al dente.",
+      "Na olivovém oleji zpomala orestujeme plátky česneku a chilli, aby nezhořkly.",
+      "Scezené špagety promícháme s olejem a podáváme s petrželkou."
+    ]
+  },
+  {
+    "id": "omeleta-se-syrem",
+    "name": "Omeleta se sýrem a šunkou",
+    "emoji": "🍳",
+    "time": 10,
+    "servings": 1,
+    "tags": [
+      "rychle",
+      "maso",
+      "snidane"
+    ],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "3 ks"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "50 g"
+      },
+      {
+        "id": "sunka",
+        "name": "Šunka",
+        "amount": "50 g"
+      }
+    ],
+    "instructions": [
+      "Vejce rozšleháme a vylijeme na rozehřátou pánev.",
+      "Jakmile se spodek začne srážet, přidáme sýr a šunku.",
+      "Přeložíme napůl a dopečeme."
+    ]
+  },
+  {
+    "id": "tortilla-wrap-kureci",
+    "name": "Kuřecí tortilla wrap",
+    "emoji": "🌯",
+    "time": 20,
+    "servings": 2,
+    "tags": [
+      "rychle",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "300 g"
+      },
+      {
+        "id": "tortilla",
+        "name": "Tortilla",
+        "amount": "4 ks"
+      },
+      {
+        "id": "ledovy-salat",
+        "name": "Ledový salát",
+        "amount": "0,5 ks"
+      },
+      {
+        "id": "jogurt-bily",
+        "name": "Bílý jogurt",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Kuřecí prsa nakrájíme na proužky a osmažíme.",
+      "Tortillu naplníme salátem, kuřetem a jogurtovým dresinkem.",
+      "Zabalíme a podáváme."
+    ]
+  },
+  {
+    "id": "rychla-quesadilla",
+    "name": "Sýrová quesadilla s fazolemi",
+    "emoji": "🧀",
+    "time": 15,
+    "servings": 2,
+    "tags": [
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "tortilla",
+        "name": "Tortilla",
+        "amount": "4 ks"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "150 g"
+      },
+      {
+        "id": "fazole",
+        "name": "Fazole",
+        "amount": "150 g"
+      }
+    ],
+    "instructions": [
+      "Tortillu posypeme sýrem a fazolemi, přiklopíme druhou tortillou.",
+      "Opékáme na pánvi z obou stran do zlatova a rozpuštění sýra.",
+      "Nakrájíme na trojúhelníky a podáváme."
+    ]
+  },
+  {
+    "id": "teply-humus-toast",
+    "name": "Humusový toast s zeleninou",
+    "emoji": "🥙",
+    "time": 8,
+    "servings": 2,
+    "tags": [
+      "rychle",
+      "vegan",
+      "snidane"
+    ],
+    "ingredients": [
+      {
+        "id": "humus",
+        "name": "Hummus",
+        "amount": "150 g"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "4 krajíce"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "0,5 ks"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Chléb opečeme a namažeme hummusem.",
+      "Poklademe plátky okurky a rajčete."
+    ]
+  },
+  {
+    "id": "rizoto-houbove",
+    "name": "Houbové rizoto",
+    "emoji": "🍄",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "300 g"
+      },
+      {
+        "id": "houby",
+        "name": "Žampiony",
+        "amount": "250 g"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "parmezan",
+        "name": "Parmezán",
+        "amount": "50 g"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme, přidáme rýži a krátce orestujeme.",
+      "Postupně zalijeme vodou/vývarem a za míchání dusíme doměkka.",
+      "Přidáme orestované žampiony a strouhaný parmezán."
+    ]
+  },
+  {
+    "id": "kureci-strips-medove-horcicova",
+    "name": "Kuřecí nugetky s medovo-hořčičným dipem",
+    "emoji": "🍗",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "rychle",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "400 g"
+      },
+      {
+        "id": "strouhanka",
+        "name": "Strouhanka",
+        "amount": "100 g"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Kuřecí prsa nakrájíme na proužky a obalíme ve strouhance.",
+      "Smažíme nebo pečeme do zlatova a propečení.",
+      "Med smícháme s hořčicí na dip."
+    ]
+  },
+  {
+    "id": "zapecene-testoviny-syrem",
+    "name": "Zapečené těstoviny se sýrem",
+    "emoji": "🧀",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "rychle",
+      "vegetarianske",
+      "testoviny"
+    ],
+    "ingredients": [
+      {
+        "id": "testoviny",
+        "name": "Těstoviny",
+        "amount": "400 g"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "200 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "200 ml"
+      }
+    ],
+    "instructions": [
+      "Těstoviny uvaříme al dente.",
+      "Smícháme se smetanou, přendáme do zapékací mísy a posypeme sýrem.",
+      "Zapékáme na 200 °C asi 10 minut do zlatova."
+    ]
+  },
+  {
+    "id": "cizrnovy-salat-rychly",
+    "name": "Rychlý cizrnový salát",
+    "emoji": "🥗",
+    "time": 10,
+    "servings": 2,
+    "tags": [
+      "rychle",
+      "vegan",
+      "salat"
+    ],
+    "ingredients": [
+      {
+        "id": "cizrna",
+        "name": "Cizrna",
+        "amount": "400 g"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "2 ks"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Cizrnu scedíme a propláchneme.",
+      "Smícháme s nakrájenou zeleninou.",
+      "Zakápneme citronovou šťávou a olivovým olejem."
+    ]
+  },
+  {
+    "id": "smazeny-syr",
+    "name": "Smažený sýr s bramborem",
+    "emoji": "🧀",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "rychle",
+      "vegetarianske"
+    ],
+    "ingredients": [
+      {
+        "id": "syr-eidam",
+        "name": "Sýr na smažení",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "600 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "strouhanka",
+        "name": "Strouhanka",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Brambory uvaříme na bramborovou kaši nebo hranolky.",
+      "Sýr obalíme v mouce, vejci a strouhance.",
+      "Smažíme na rozpáleném oleji do zlatova."
+    ]
+  },
+  {
+    "id": "rychla-rizoto-zeleninove",
+    "name": "Zeleninové rizoto",
+    "emoji": "🥕",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "rychle",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "300 g"
+      },
+      {
+        "id": "cuketa",
+        "name": "Cuketa",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme, přidáme rýži a krátce orestujeme.",
+      "Postupně zalijeme vodou a dusíme za míchání doměkka.",
+      "Přidáme na kostky nakrájenou cuketu a papriku, dodusíme."
+    ]
+  },
+  {
+    "id": "burger-domaci",
+    "name": "Domácí hovězí burger",
+    "emoji": "🍔",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "grilovani"
+    ],
+    "ingredients": [
+      {
+        "id": "mlete-maso",
+        "name": "Mleté hovězí maso",
+        "amount": "500 g"
+      },
+      {
+        "id": "houska",
+        "name": "Housky na burger",
+        "amount": "4 ks"
+      },
+      {
+        "id": "syr-eidam",
+        "name": "Sýr",
+        "amount": "4 plátky"
+      },
+      {
+        "id": "ledovy-salat",
+        "name": "Salát",
+        "amount": "4 lístky"
+      }
+    ],
+    "instructions": [
+      "Z masa vytvarujeme placičky, osolíme a opepříme.",
+      "Grilujeme nebo opečeme na pánvi z obou stran, na konci přidáme sýr.",
+      "Sestavíme burger s houskou, salátem a oblíbenou omáčkou."
+    ]
+  },
+  {
+    "id": "svickova-na-smetane",
+    "name": "Svíčková na smetaně",
+    "emoji": "🍖",
+    "time": 150,
+    "servings": 6,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "1 kg"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "400 g"
+      },
+      {
+        "id": "celer",
+        "name": "Celer",
+        "amount": "200 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "200 ml"
+      }
+    ],
+    "instructions": [
+      "Maso prošpikujeme, orestujeme spolu se zeleninou dozlatova.",
+      "Podlijeme vodou a dusíme doměkka asi 2 hodiny.",
+      "Zeleninu se šťávou rozmixujeme, dochutíme smetanou a maso v omáčce prohřejeme."
+    ]
+  },
+  {
+    "id": "vepro-knedlo-zelo",
+    "name": "Vepřo knedlo zelo",
+    "emoji": "🍽️",
+    "time": 120,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřová krkovice",
+        "amount": "1 kg"
+      },
+      {
+        "id": "zeli",
+        "name": "Zelí",
+        "amount": "500 g"
+      },
+      {
+        "id": "houskovy-knedlik",
+        "name": "Houskový knedlík",
+        "amount": "8 plátků"
+      }
+    ],
+    "instructions": [
+      "Krkovici osolíme, opepříme a upečeme doměkka na 180 °C asi 90 minut.",
+      "Zelí podusíme na cibulce doměkka.",
+      "Podáváme s houskovým knedlíkem."
+    ]
+  },
+  {
+    "id": "kureci-perkelt",
+    "name": "Kuřecí paprikáš",
+    "emoji": "🍗",
+    "time": 50,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "2 ks"
+      },
+      {
+        "id": "paprika-koreni",
+        "name": "Mletá paprika",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "200 ml"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme dosklovata, přidáme maso a orestujeme.",
+      "Vmícháme mletou papriku, podlijeme vodou a dusíme doměkka.",
+      "Na závěr zjemníme smetanou."
+    ]
+  },
+  {
+    "id": "segedinsky-gulas",
+    "name": "Segedínský guláš",
+    "emoji": "🥘",
+    "time": 90,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "vepr-krkovice",
+        "name": "Vepřové maso",
+        "amount": "600 g"
+      },
+      {
+        "id": "zeli-kysane",
+        "name": "Kysané zelí",
+        "amount": "500 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "200 ml"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Maso s cibulí orestujeme, přidáme kysané zelí.",
+      "Podlijeme a dusíme doměkka asi 60 minut.",
+      "Na závěr zahustíme a zjemníme smetanou."
+    ]
+  },
+  {
+    "id": "kachni-prsa-medova-omacka",
+    "name": "Kachní prsa v medové omáčce",
+    "emoji": "🦆",
+    "time": 40,
+    "servings": 2,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kachni-prsa",
+        "name": "Kachní prsa",
+        "amount": "2 ks"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "pomeranc",
+        "name": "Pomeranč",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Kůži kachních prsou naříznout do mřížky, osolit a opéct kůží dolů dokřupava.",
+      "Otočit, dopéct v troubě na 180 °C do propečení.",
+      "Podlévat šťávou z pomeranče a medem na lesklou omáčku."
+    ]
+  },
+  {
+    "id": "kotlety-na-cibulce",
+    "name": "Vepřové kotlety na cibulce",
+    "emoji": "🍖",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "vepr-kotleta",
+        "name": "Vepřové kotlety",
+        "amount": "4 ks"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "3 ks"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "1 lžíce"
+      }
+    ],
+    "instructions": [
+      "Kotlety naklepeme, osolíme, opepříme a orestujeme z obou stran.",
+      "Přidáme cibuli nakrájenou na kolečka a dusíme doměkka.",
+      "Na závěr dochutíme hořčicí."
+    ]
+  },
+  {
+    "id": "mletiky-bramborova-kase",
+    "name": "Mleté karbanátky s bramborovou kaší",
+    "emoji": "🍽️",
+    "time": 45,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "mlete-maso",
+        "name": "Mleté maso",
+        "amount": "500 g"
+      },
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "800 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "1 ks"
+      },
+      {
+        "id": "houska",
+        "name": "Rohlík",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Rohlík namočíme, smícháme s masem, vejcem, solí a pepřem.",
+      "Tvarujeme karbanátky a smažíme dozlatova.",
+      "Brambory uvaříme a rozšťoucháme na kaši."
+    ]
+  },
+  {
+    "id": "kureci-stehna-na-slanine",
+    "name": "Kuřecí stehna zapečená na slanině",
+    "emoji": "🍗",
+    "time": 55,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-stehna",
+        "name": "Kuřecí stehna",
+        "amount": "1 kg"
+      },
+      {
+        "id": "slanina",
+        "name": "Slanina",
+        "amount": "150 g"
+      },
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "600 g"
+      }
+    ],
+    "instructions": [
+      "Stehna omotáme plátky slaniny.",
+      "Poskládáme na plech s bramborami nakrájenými na kostky.",
+      "Pečeme na 200 °C asi 40 minut do zlatova."
+    ]
+  },
+  {
+    "id": "plnena-paprika-2",
+    "name": "Plněná paprika s rajskou omáčkou",
+    "emoji": "🫑",
+    "time": 60,
+    "servings": 4,
+    "tags": [
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "6 ks"
+      },
+      {
+        "id": "mlete-maso",
+        "name": "Mleté maso",
+        "amount": "400 g"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "100 g"
+      },
+      {
+        "id": "rajcata-loupana",
+        "name": "Rajčata loupaná",
+        "amount": "400 g"
+      }
+    ],
+    "instructions": [
+      "Papriky zbavíme jádřinců, naplníme směsí masa, rýže a koření.",
+      "Dusíme v rajčatové omáčce asi 40 minut."
+    ]
+  },
+  {
+    "id": "gril-klobasa-cibule",
+    "name": "Grilovaná klobása s cibulí a hořčicí",
+    "emoji": "🌭",
+    "time": 15,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "grilovani",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "klobasa",
+        "name": "Klobása",
+        "amount": "4 ks"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "2 ks"
+      },
+      {
+        "id": "horcice",
+        "name": "Hořčice",
+        "amount": "2 lžíce"
+      },
+      {
+        "id": "chleba",
+        "name": "Chléb",
+        "amount": "4 krajíce"
+      }
+    ],
+    "instructions": [
+      "Klobásy grilujeme dozlatova.",
+      "Cibuli nakrájíme na kolečka.",
+      "Podáváme s chlebem, hořčicí a cibulí."
+    ]
+  },
+  {
+    "id": "kureci-satay",
+    "name": "Kuřecí saté špízy s arašídovou omáčkou",
+    "emoji": "🍢",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "grilovani"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "500 g"
+      },
+      {
+        "id": "arasidove-maslo",
+        "name": "Arašídové máslo",
+        "amount": "100 g"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Kuřecí prsa nakrájíme na proužky a napíchneme na špejle.",
+      "Grilujeme nebo opečeme na pánvi.",
+      "Arašídové máslo rozmícháme se sójovou omáčkou a trochou vody na dip."
+    ]
+  },
+  {
+    "id": "hovezi-nudle-woku",
+    "name": "Hovězí nudle z wok pánve",
+    "emoji": "🍜",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "maso",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "hovezi-maso",
+        "name": "Hovězí maso",
+        "amount": "400 g"
+      },
+      {
+        "id": "nudle",
+        "name": "Rýžové nudle",
+        "amount": "300 g"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "sojova-omacka",
+        "name": "Sójová omáčka",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Hovězí maso nakrájíme na tenké nudličky a prudce orestujeme ve woku.",
+      "Přidáme papriku a krátce orestujeme.",
+      "Přidáme uvařené nudle a sójovou omáčku, promícháme a podáváme."
+    ]
+  },
+  {
+    "id": "treska-na-paprice",
+    "name": "Treska na paprice se zeleninou",
+    "emoji": "🐟",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "ryba",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "treska",
+        "name": "Tresčí filet",
+        "amount": "500 g"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "2 ks"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "100 ml"
+      }
+    ],
+    "instructions": [
+      "Cibuli a papriku orestujeme.",
+      "Přidáme rybí filety a podusíme doměkka.",
+      "Zalijeme smetanou a krátce provaříme."
+    ]
+  },
+  {
+    "id": "lososovy-salat-quinoa",
+    "name": "Lososový salát s quinoou",
+    "emoji": "🐟",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "salat",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "losos",
+        "name": "Losos",
+        "amount": "300 g"
+      },
+      {
+        "id": "quinoa",
+        "name": "Quinoa",
+        "amount": "150 g"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Quinou uvaříme podle návodu.",
+      "Lososa opečeme na pánvi a rozdělíme na kousky.",
+      "Vše smícháme s okurkou a zakápneme citronem."
+    ]
+  },
+  {
+    "id": "rybi-prsty-domaci",
+    "name": "Domácí rybí prsty s tatarkou",
+    "emoji": "🐟",
+    "time": 35,
+    "servings": 4,
+    "tags": [
+      "ryba",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "treska",
+        "name": "Tresčí filet",
+        "amount": "500 g"
+      },
+      {
+        "id": "strouhanka",
+        "name": "Strouhanka",
+        "amount": "150 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "tatarska-omacka",
+        "name": "Tatarská omáčka",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Rybu nakrájíme na proužky a obalíme v mouce, vejci a strouhance.",
+      "Smažíme nebo pečeme do zlatova.",
+      "Podáváme s tatarskou omáčkou."
+    ]
+  },
+  {
+    "id": "krevetovy-salat-avokado",
+    "name": "Krevetový salát s avokádem",
+    "emoji": "🥑",
+    "time": 15,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "salat",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "krevety",
+        "name": "Krevety",
+        "amount": "300 g"
+      },
+      {
+        "id": "avokado",
+        "name": "Avokádo",
+        "amount": "2 ks"
+      },
+      {
+        "id": "ledovy-salat",
+        "name": "Salát",
+        "amount": "1 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Krevety krátce orestujeme.",
+      "Avokádo a salát nakrájíme, smícháme s krevetami.",
+      "Zakápneme citronovou šťávou."
+    ]
+  },
+  {
+    "id": "tunakovy-salat-fazole",
+    "name": "Tuňákový salát s fazolemi",
+    "emoji": "🐟",
+    "time": 10,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "salat",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "tunak",
+        "name": "Tuňák v konzervě",
+        "amount": "200 g"
+      },
+      {
+        "id": "fazole",
+        "name": "Fazole",
+        "amount": "300 g"
+      },
+      {
+        "id": "cervena-cibule",
+        "name": "Červená cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Fazole scedíme a propláchneme.",
+      "Smícháme s tuňákem a nakrájenou cibulí.",
+      "Zakápneme olivovým olejem, osolíme a opepříme."
+    ]
+  },
+  {
+    "id": "losos-spenat-krem",
+    "name": "Losos se špenátovou smetanou",
+    "emoji": "🐟",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "ryba",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "losos",
+        "name": "Losos",
+        "amount": "400 g"
+      },
+      {
+        "id": "spenat",
+        "name": "Špenát",
+        "amount": "300 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "150 ml"
+      }
+    ],
+    "instructions": [
+      "Lososa opečeme na pánvi z obou stran.",
+      "Špenát podusíme se smetanou doměkka.",
+      "Podáváme lososa na špenátové smetaně."
+    ]
+  },
+  {
+    "id": "cizrnove-kari",
+    "name": "Cizrnové kari s kokosovým mlékem",
+    "emoji": "🍛",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegan",
+      "asijske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "cizrna",
+        "name": "Cizrna",
+        "amount": "400 g"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "kari-koreni",
+        "name": "Kari koření",
+        "amount": "1 lžíce"
+      },
+      {
+        "id": "ryze",
+        "name": "Rýže",
+        "amount": "200 g"
+      }
+    ],
+    "instructions": [
+      "Cibuli orestujeme s kari kořením.",
+      "Přidáme cizrnu a kokosové mléko, provaříme 15 minut.",
+      "Podáváme s vařenou rýží."
+    ]
+  },
+  {
+    "id": "cocevy-salat-teply",
+    "name": "Teplý čočkový salát s fetou",
+    "emoji": "🥗",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "salat"
+    ],
+    "ingredients": [
+      {
+        "id": "cocka",
+        "name": "Čočka",
+        "amount": "250 g"
+      },
+      {
+        "id": "feta",
+        "name": "Feta",
+        "amount": "100 g"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "2 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Čočku uvaříme doměkka a necháme mírně vychladnout.",
+      "Smícháme s nakrájenými rajčaty a fetou.",
+      "Zakápneme citronovou šťávou a olivovým olejem."
+    ]
+  },
+  {
+    "id": "zapecena-zelenina-stredomorska",
+    "name": "Středomořská zapečená zelenina",
+    "emoji": "🍆",
+    "time": 45,
+    "servings": 4,
+    "tags": [
+      "vegan",
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "cuketa",
+        "name": "Cuketa",
+        "amount": "1 ks"
+      },
+      {
+        "id": "lilek",
+        "name": "Lilek",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "2 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "4 lžíce"
+      }
+    ],
+    "instructions": [
+      "Zeleninu nakrájíme na kousky, promícháme s olejem, solí a bylinkami.",
+      "Rozprostřeme na plech a pečeme na 200 °C asi 35 minut."
+    ]
+  },
+  {
+    "id": "falafel-domaci",
+    "name": "Domácí falafel v pita chlebu",
+    "emoji": "🧆",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "id": "cizrna",
+        "name": "Cizrna",
+        "amount": "400 g"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "2 stroužky"
+      },
+      {
+        "id": "kmin",
+        "name": "Kmín",
+        "amount": "1 lžička"
+      },
+      {
+        "id": "pita-chleba",
+        "name": "Pita chléb",
+        "amount": "4 ks"
+      }
+    ],
+    "instructions": [
+      "Cizrnu rozmixujeme s česnekem, kmínem a bylinkami na hrubší pastu.",
+      "Tvarujeme kuličky a smažíme nebo pečeme dozlatova.",
+      "Podáváme v pita chlebu se zeleninou."
+    ]
+  },
+  {
+    "id": "spenatove-gnocchi",
+    "name": "Špenátové noky se smetanou",
+    "emoji": "🍝",
+    "time": 20,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "testoviny"
+    ],
+    "ingredients": [
+      {
+        "id": "gnocchi",
+        "name": "Noky",
+        "amount": "500 g"
+      },
+      {
+        "id": "spenat",
+        "name": "Špenát",
+        "amount": "200 g"
+      },
+      {
+        "id": "smetana",
+        "name": "Smetana",
+        "amount": "150 ml"
+      },
+      {
+        "id": "parmezan",
+        "name": "Parmezán",
+        "amount": "50 g"
+      }
+    ],
+    "instructions": [
+      "Noky uvaříme podle návodu.",
+      "Špenát podusíme se smetanou.",
+      "Promícháme s noky a posypeme parmezánem."
+    ]
+  },
+  {
+    "id": "zeleninovy-curry",
+    "name": "Zeleninové kari s tofu",
+    "emoji": "🍛",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegan",
+      "asijske"
+    ],
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "Tofu",
+        "amount": "300 g"
+      },
+      {
+        "id": "brokolice",
+        "name": "Brokolice",
+        "amount": "200 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "2 ks"
+      },
+      {
+        "id": "kokosove-mleko",
+        "name": "Kokosové mléko",
+        "amount": "400 ml"
+      }
+    ],
+    "instructions": [
+      "Tofu nakrájíme na kostky a orestujeme dozlatova.",
+      "Přidáme zeleninu a kokosové mléko.",
+      "Dusíme doměkka asi 15 minut."
+    ]
+  },
+  {
+    "id": "bramborove-placky",
+    "name": "Bramborové placky s česnekem",
+    "emoji": "🥔",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "800 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "cesnek",
+        "name": "Česnek",
+        "amount": "3 stroužky"
+      },
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Brambory nastrouháme, smícháme s vejci, moukou a prolisovaným česnekem.",
+      "Osolíme a smažíme placky na oleji dozlatova z obou stran."
+    ]
+  },
+  {
+    "id": "quinoa-salat-zeleninovy",
+    "name": "Quinoa salát s pečenou zeleninou",
+    "emoji": "🥗",
+    "time": 35,
+    "servings": 4,
+    "tags": [
+      "vegan",
+      "salat"
+    ],
+    "ingredients": [
+      {
+        "id": "quinoa",
+        "name": "Quinoa",
+        "amount": "200 g"
+      },
+      {
+        "id": "cuketa",
+        "name": "Cuketa",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Quinou uvaříme podle návodu.",
+      "Zeleninu upečeme na plechu s olejem na 200 °C asi 20 minut.",
+      "Vše promícháme dohromady."
+    ]
+  },
+  {
+    "id": "zapecene-tstoviny-se-zeleninou",
+    "name": "Zapečené těstoviny se zeleninou a mozzarellou",
+    "emoji": "🍝",
+    "time": 40,
+    "servings": 4,
+    "tags": [
+      "vegetarianske",
+      "testoviny"
+    ],
+    "ingredients": [
+      {
+        "id": "testoviny",
+        "name": "Těstoviny",
+        "amount": "400 g"
+      },
+      {
+        "id": "cuketa",
+        "name": "Cuketa",
+        "amount": "1 ks"
+      },
+      {
+        "id": "mozzarella",
+        "name": "Mozzarella",
+        "amount": "200 g"
+      },
+      {
+        "id": "rajcata-loupana",
+        "name": "Rajčata loupaná",
+        "amount": "400 g"
+      }
+    ],
+    "instructions": [
+      "Těstoviny uvaříme al dente.",
+      "Smícháme s orestovanou cuketou a rajčatovou omáčkou.",
+      "Přendáme do zapékací mísy, posypeme mozzarellou a zapečeme na 200 °C 15 minut."
+    ]
+  },
+  {
+    "id": "teply-hummus-se-zeleninou",
+    "name": "Hummus s pečenou zeleninou a pita chlebem",
+    "emoji": "🥙",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "id": "humus",
+        "name": "Hummus",
+        "amount": "200 g"
+      },
+      {
+        "id": "cuketa",
+        "name": "Cuketa",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "pita-chleba",
+        "name": "Pita chléb",
+        "amount": "4 ks"
+      }
+    ],
+    "instructions": [
+      "Zeleninu upečeme na 200 °C asi 20 minut.",
+      "Hummus rozetřeme na talíř, navrch dáme pečenou zeleninu.",
+      "Podáváme s teplým pita chlebem."
+    ]
+  },
+  {
+    "id": "caesar-salat",
+    "name": "Caesar salát s kuřecím masem",
+    "emoji": "🥗",
+    "time": 25,
+    "servings": 2,
+    "tags": [
+      "salat",
+      "maso",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kureci-prsa",
+        "name": "Kuřecí prsa",
+        "amount": "300 g"
+      },
+      {
+        "id": "salat-rimsky",
+        "name": "Římský salát",
+        "amount": "1 ks"
+      },
+      {
+        "id": "parmezan",
+        "name": "Parmezán",
+        "amount": "50 g"
+      },
+      {
+        "id": "houska",
+        "name": "Krutony",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Kuřecí prsa opečeme a nakrájíme na proužky.",
+      "Salát natrháme, smícháme s krutony a parmezánem.",
+      "Přidáme kuře a zalijeme dresinkem dle chuti."
+    ]
+  },
+  {
+    "id": "caprese-salat",
+    "name": "Caprese salát s rajčaty a bazalkou",
+    "emoji": "🍅",
+    "time": 10,
+    "servings": 2,
+    "tags": [
+      "salat",
+      "vegetarianske",
+      "rychle",
+      "italska"
+    ],
+    "ingredients": [
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "4 ks"
+      },
+      {
+        "id": "mozzarella",
+        "name": "Mozzarella",
+        "amount": "200 g"
+      },
+      {
+        "id": "bazalka",
+        "name": "Čerstvá bazalka",
+        "amount": "hrst"
+      },
+      {
+        "id": "olivovy-olej",
+        "name": "Olivový olej",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Rajčata a mozzarellu nakrájíme na plátky.",
+      "Střídavě naskládáme na talíř s lístky bazalky.",
+      "Zakápneme olivovým olejem, osolíme a opepříme."
+    ]
+  },
+  {
+    "id": "recky-salat",
+    "name": "Řecký salát s fetou",
+    "emoji": "🥗",
+    "time": 15,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "3 ks"
+      },
+      {
+        "id": "feta",
+        "name": "Feta",
+        "amount": "150 g"
+      },
+      {
+        "id": "olivy",
+        "name": "Olivy",
+        "amount": "80 g"
+      }
+    ],
+    "instructions": [
+      "Zeleninu nakrájíme na kostky.",
+      "Přidáme fetu a olivy.",
+      "Zakápneme olivovým olejem a orestovaným oreganem."
+    ]
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw salát ze zelí a mrkve",
+    "emoji": "🥗",
+    "time": 15,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "vegetarianske",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "zeli",
+        "name": "Bílé zelí",
+        "amount": "300 g"
+      },
+      {
+        "id": "mrkev",
+        "name": "Mrkev",
+        "amount": "2 ks"
+      },
+      {
+        "id": "jogurt-bily",
+        "name": "Bílý jogurt",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Zelí a mrkev najemno nastrouháme.",
+      "Promícháme s jogurtem, osolíme a necháme chvíli odstát."
+    ]
+  },
+  {
+    "id": "kuskusovy-salat",
+    "name": "Kuskusový salát se zeleninou",
+    "emoji": "🥗",
+    "time": 15,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "vegan",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "kuskus",
+        "name": "Kuskus",
+        "amount": "200 g"
+      },
+      {
+        "id": "okurka",
+        "name": "Okurka",
+        "amount": "1 ks"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "amount": "1 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Kuskus zalijeme horkou vodou a necháme nabobtnat.",
+      "Zeleninu nakrájíme na kostičky a smícháme s kuskusem.",
+      "Zakápneme citronovou šťávou a olivovým olejem."
+    ]
+  },
+  {
+    "id": "teply-bramborovy-salat",
+    "name": "Teplý bramborový salát se slaninou",
+    "emoji": "🥔",
+    "time": 30,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "maso"
+    ],
+    "ingredients": [
+      {
+        "id": "brambory",
+        "name": "Brambory",
+        "amount": "600 g"
+      },
+      {
+        "id": "slanina",
+        "name": "Slanina",
+        "amount": "100 g"
+      },
+      {
+        "id": "cibule",
+        "name": "Cibule",
+        "amount": "1 ks"
+      },
+      {
+        "id": "ocet",
+        "name": "Ocet",
+        "amount": "2 lžíce"
+      }
+    ],
+    "instructions": [
+      "Brambory uvaříme ve slupce, oloupeme a nakrájíme.",
+      "Slaninu a cibuli orestujeme dokřupava.",
+      "Vše smícháme s octem ještě teplé."
+    ]
+  },
+  {
+    "id": "vejce-salat-s-majonezou",
+    "name": "Vaječný salát s majonézou",
+    "emoji": "🥚",
+    "time": 20,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "snidane",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "6 ks"
+      },
+      {
+        "id": "majoneza",
+        "name": "Majonéza",
+        "amount": "100 g"
+      },
+      {
+        "id": "okurka-nakladana",
+        "name": "Nakládaná okurka",
+        "amount": "2 ks"
+      }
+    ],
+    "instructions": [
+      "Vejce uvaříme natvrdo, oloupeme a nasekáme.",
+      "Přidáme nakrájené okurky a majonézu.",
+      "Promícháme a dochutíme solí a pepřem."
+    ]
+  },
+  {
+    "id": "bulgurovy-salat-petrzelka",
+    "name": "Bulgurový salát s petrželkou (tabouleh)",
+    "emoji": "🥗",
+    "time": 25,
+    "servings": 4,
+    "tags": [
+      "salat",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "id": "bulgur",
+        "name": "Bulgur",
+        "amount": "200 g"
+      },
+      {
+        "id": "petrzelka",
+        "name": "Petržel",
+        "amount": "hrst"
+      },
+      {
+        "id": "rajcata",
+        "name": "Rajčata",
+        "amount": "2 ks"
+      },
+      {
+        "id": "citron",
+        "name": "Citron",
+        "amount": "1 ks"
+      }
+    ],
+    "instructions": [
+      "Bulgur zalijeme horkou vodou a necháme nabobtnat.",
+      "Přidáme nasekanou petržel a rajčata.",
+      "Zakápneme citronovou šťávou a olivovým olejem."
+    ]
+  },
+  {
+    "id": "jablkovy-strudl",
+    "name": "Jablkový štrůdl",
+    "emoji": "🥮",
+    "time": 60,
+    "servings": 8,
+    "tags": [
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "jablka",
+        "name": "Jablka",
+        "amount": "800 g"
+      },
+      {
+        "id": "listove-testo",
+        "name": "Listové těsto",
+        "amount": "1 balení"
+      },
+      {
+        "id": "skorice",
+        "name": "Skořice",
+        "amount": "1 lžička"
+      },
+      {
+        "id": "cukr",
+        "name": "Cukr",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Jablka oloupeme, nastrouháme a smícháme s cukrem a skořicí.",
+      "Rozprostřeme na listové těsto a zarolujeme.",
+      "Pečeme na 180 °C asi 35 minut do zlatova."
+    ]
+  },
+  {
+    "id": "cokoladove-brownies",
+    "name": "Čokoládové brownies",
+    "emoji": "🍫",
+    "time": 45,
+    "servings": 8,
+    "tags": [
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "cokolada",
+        "name": "Hořká čokoláda",
+        "amount": "200 g"
+      },
+      {
+        "id": "maslo",
+        "name": "Máslo",
+        "amount": "150 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "3 ks"
+      },
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "100 g"
+      }
+    ],
+    "instructions": [
+      "Čokoládu s máslem rozpustíme ve vodní lázni.",
+      "Vmícháme vejce, cukr a mouku.",
+      "Pečeme na 180 °C asi 25 minut, střed by měl zůstat vláčný."
+    ]
+  },
+  {
+    "id": "tvarohovy-kolac",
+    "name": "Tvarohový koláč s ovocem",
+    "emoji": "🍰",
+    "time": 60,
+    "servings": 8,
+    "tags": [
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "tvaroh",
+        "name": "Tvaroh",
+        "amount": "500 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "3 ks"
+      },
+      {
+        "id": "cukr",
+        "name": "Cukr",
+        "amount": "120 g"
+      },
+      {
+        "id": "ovoce-sezonni",
+        "name": "Sezónní ovoce",
+        "amount": "300 g"
+      }
+    ],
+    "instructions": [
+      "Tvaroh vyšleháme s vejci a cukrem.",
+      "Vylijeme do formy a poklademe ovocem.",
+      "Pečeme na 170 °C asi 45 minut."
+    ]
+  },
+  {
+    "id": "palacinkovy-dort",
+    "name": "Palačinkový dort s čokoládovou pomazánkou",
+    "emoji": "🥞",
+    "time": 40,
+    "servings": 6,
+    "tags": [
+      "dezert"
+    ],
+    "ingredients": [
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "200 g"
+      },
+      {
+        "id": "mleko",
+        "name": "Mléko",
+        "amount": "400 ml"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "nutella",
+        "name": "Čokoládová pomazánka",
+        "amount": "200 g"
+      }
+    ],
+    "instructions": [
+      "Upečeme sadu tenkých palačinek.",
+      "Skládáme na sebe a mezi vrstvy mažeme čokoládovou pomazánkou.",
+      "Necháme zchladit a krájíme jako dort."
+    ]
+  },
+  {
+    "id": "ovesne-susenky",
+    "name": "Ovesné sušenky s čokoládou",
+    "emoji": "🍪",
+    "time": 30,
+    "servings": 12,
+    "tags": [
+      "dezert",
+      "rychle"
+    ],
+    "ingredients": [
+      {
+        "id": "ovesne-vlocky",
+        "name": "Ovesné vločky",
+        "amount": "200 g"
+      },
+      {
+        "id": "maslo",
+        "name": "Máslo",
+        "amount": "100 g"
+      },
+      {
+        "id": "cokoladove-capky",
+        "name": "Čokoládové kousky",
+        "amount": "100 g"
+      },
+      {
+        "id": "med",
+        "name": "Med",
+        "amount": "3 lžíce"
+      }
+    ],
+    "instructions": [
+      "Máslo rozpustíme a smícháme s medem, vločkami a čokoládou.",
+      "Tvarujeme kupičky na plech.",
+      "Pečeme na 180 °C asi 12 minut."
+    ]
+  },
+  {
+    "id": "bananovy-chlebicek",
+    "name": "Banánový chlebíček (banana bread)",
+    "emoji": "🍌",
+    "time": 60,
+    "servings": 8,
+    "tags": [
+      "dezert",
+      "snidane"
+    ],
+    "ingredients": [
+      {
+        "id": "banan",
+        "name": "Zralé banány",
+        "amount": "3 ks"
+      },
+      {
+        "id": "mouka-hladka",
+        "name": "Hladká mouka",
+        "amount": "250 g"
+      },
+      {
+        "id": "vejce",
+        "name": "Vejce",
+        "amount": "2 ks"
+      },
+      {
+        "id": "kypricí-prasek",
+        "name": "Kypřicí prášek",
+        "amount": "1 lžička"
+      }
+    ],
+    "instructions": [
+      "Banány rozmačkáme a smícháme s vejci a cukrem.",
+      "Vmícháme mouku s kypřicím práškem.",
+      "Pečeme ve formě na 175 °C asi 50 minut."
     ]
   }
 ]
