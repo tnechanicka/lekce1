@@ -35,7 +35,7 @@ items from it directly — no scraping involved, since the user supplies the fil
 .
 ├── _config.yml       # Jekyll config — sets the theme (jekyll-theme-leap-day)
 ├── index.html        # App shell/markup
-├── style.css         # All styling (vanilla CSS, Lidl-ish blue/yellow palette)
+├── style.css         # All styling (vanilla CSS, minimalist palette in :root custom properties)
 ├── app.js            # Core app: data loading, pantry, both modes, shopping list, saved-leaflet state
 ├── pdf-import.js     # PDF-to-leaflet-data import UI, built on top of app.js's saved-leaflet functions
 ├── vendor/pdfjs/     # Vendored pdf.js (Apache-2.0) build output — see its README.md
