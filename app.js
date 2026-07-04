@@ -505,7 +505,11 @@ function renderPreferenceModeRecipes() {
     const hasSelection = pantry.size > 0;
 
     const scored = list.map((recipe) => ({ recipe, seasonal: seasonalCount(recipe) }));
-    scored.sort((a, b) => b.seasonal - a.seasonal);
+    scored.sort((a, b) => {
+        const aPlanned = planned.has(a.recipe.id) ? 1 : 0;
+        const bPlanned = planned.has(b.recipe.id) ? 1 : 0;
+        return bPlanned - aPlanned || b.seasonal - a.seasonal;
+    });
 
     container.innerHTML = "";
     if (scored.length === 0) {
