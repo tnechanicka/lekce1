@@ -205,5 +205,315 @@
       "Přidáme rozšlehaná vejce, osolíme, opepříme a za míchání usmažíme.",
       "Na závěr přidáme kostičky mozzarelly, aby se lehce rozpustila, a posypeme bazalkou."
     ]
+  },
+  {
+    "id": "asijska-kureci-stehna",
+    "name": "Asijská kuřecí stehna se sezamem a chilli",
+    "emoji": "🌶️",
+    "time": 45,
+    "servings": 4,
+    "tags": ["maso", "asijske"],
+    "leafletIngredients": [
+      { "id": "kureci-stehna", "amount": "1 kg" }
+    ],
+    "pantryIngredients": ["sójová omáčka", "med", "česnek", "zázvor", "chilli omáčka", "sezamová semínka", "sezamový olej"],
+    "instructions": [
+      "Stehna omyjeme, osušíme a marinujeme alespoň hodinu ve směsi sójové omáčky, medu, prolisovaného česneku, zázvoru a chilli omáčky.",
+      "Na pánvi rozehřejeme sezamový olej a stehna opečeme dozlatova z obou stran.",
+      "Dopečeme na mírnějším ohni pod pokličkou, dokud nejsou propečená.",
+      "Před podáváním posypeme sezamovými semínky."
+    ]
+  },
+  {
+    "id": "kureci-stehna-med-horcice-brambory",
+    "name": "Kuřecí stehna v medovo-hořčičné marinádě s bramborami rané",
+    "emoji": "🍯",
+    "time": 50,
+    "servings": 4,
+    "tags": ["maso"],
+    "leafletIngredients": [
+      { "id": "kureci-stehna", "amount": "1 kg" },
+      { "id": "brambory-rane", "amount": "1 kg" }
+    ],
+    "pantryIngredients": ["med", "hořčice", "olej", "sůl", "pepř", "rozmarýn"],
+    "instructions": [
+      "Smícháme med, hořčici, olej, sůl, pepř a rozmarýn.",
+      "Stehna touto směsí potřeme a necháme alespoň 30 minut marinovat.",
+      "Brambory rané přepůlíme, osolíme a přidáme na plech ke stehnům.",
+      "Pečeme na 200 °C přibližně 40 minut do zlatova."
+    ]
+  },
+  {
+    "id": "krkovice-med-horcice-trouba",
+    "name": "Vepřová krkovice pečená na medu a hořčici",
+    "emoji": "🍖",
+    "time": 60,
+    "servings": 4,
+    "tags": ["maso"],
+    "leafletIngredients": [
+      { "id": "vepr-krkovice", "amount": "1 kg" }
+    ],
+    "pantryIngredients": ["med", "hořčice", "cibule", "česnek", "olej", "sůl", "pepř"],
+    "instructions": [
+      "Cibuli a česnek nakrájíme a rozprostřeme na dno pekáčku.",
+      "Krkovici osolíme, opepříme, položíme na cibuli a potřeme směsí medu a hořčice.",
+      "Podlijeme trochou vody, přiklopíme a dáme do trouby vyhřáté na 200 °C.",
+      "Pečeme asi 50 minut, posledních 10 minut odklopíme, aby maso zezlátlo."
+    ]
+  },
+  {
+    "id": "krkovice-kofola-marinada",
+    "name": "Krkovice marinovaná v Kofole a grilovaná",
+    "emoji": "🥤",
+    "time": 40,
+    "servings": 4,
+    "tags": ["maso", "grilovani"],
+    "leafletIngredients": [
+      { "id": "vepr-krkovice", "amount": "1 kg" },
+      { "id": "kofola", "amount": "0,5 l" }
+    ],
+    "pantryIngredients": ["česnek", "hořčice", "olej", "sůl", "pepř"],
+    "instructions": [
+      "Krkovici zalijeme Kofolou smíchanou s prolisovaným česnekem a hořčicí a necháme marinovat v lednici alespoň 4 hodiny (ideálně přes noc).",
+      "Maso vyjmeme, osušíme, osolíme a opepříme.",
+      "Grilujeme na středním ohni z obou stran doměkka – cukr v Kofole hezky zkaramelizuje kůrku.",
+      "Necháme chvíli odpočinout a podáváme."
+    ]
+  },
+  {
+    "id": "krkovice-pivni-marinada-svijansky",
+    "name": "Krkovice v pivní marinádě se Svijanským Mázem",
+    "emoji": "🍺",
+    "time": 40,
+    "servings": 4,
+    "tags": ["maso", "grilovani"],
+    "leafletIngredients": [
+      { "id": "vepr-krkovice", "amount": "1 kg" },
+      { "id": "svijansky-maz", "amount": "0,5 l" }
+    ],
+    "pantryIngredients": ["hořčice", "med", "česnek", "olej", "sůl", "pepř"],
+    "instructions": [
+      "Smícháme pivo, hořčici, med, prolisovaný česnek a olej.",
+      "Krkovici zalijeme marinádou a necháme v lednici odležet alespoň 2 hodiny.",
+      "Osolíme, opepříme a grilujeme z obou stran doměkka.",
+      "Zbylou marinádou můžeme maso během grilování potírat."
+    ]
+  },
+  {
+    "id": "losos-teriyaki-avokado",
+    "name": "Losos teriyaki s avokádem a rýží",
+    "emoji": "🍱",
+    "time": 25,
+    "servings": 2,
+    "tags": ["ryba", "asijske", "rychle"],
+    "leafletIngredients": [
+      { "id": "losos", "amount": "250 g" },
+      { "id": "avokado", "amount": "1 ks" }
+    ],
+    "pantryIngredients": ["sójová omáčka", "med", "zázvor", "česnek", "rýže", "limetka"],
+    "instructions": [
+      "Smícháme sójovou omáčku, med, zázvor a česnek na teriyaki marinádu.",
+      "Lososa v marinádě necháme alespoň 15 minut odležet.",
+      "Pečeme na 190 °C asi 15 minut, případně marinádou během pečení potíráme.",
+      "Podáváme s vařenou rýží a plátky avokáda zakápnutými limetkou."
+    ]
+  },
+  {
+    "id": "krevetove-kari-kokos",
+    "name": "Thajské krevetové kari s kokosovým mlékem",
+    "emoji": "🍛",
+    "time": 20,
+    "servings": 2,
+    "tags": ["ryba", "asijske", "rychle"],
+    "leafletIngredients": [
+      { "id": "krevety", "amount": "300 g" }
+    ],
+    "pantryIngredients": ["kokosové mléko", "kari koření nebo pasta", "cibule", "česnek", "rýže", "koriandr", "limetka"],
+    "instructions": [
+      "Cibuli a česnek orestujeme, přidáme kari koření nebo pastu a krátce orestujeme.",
+      "Zalijeme kokosovým mlékem a necháme provařit.",
+      "Přidáme krevety a vaříme jen několik minut, dokud nezrůžoví.",
+      "Dochutíme limetkou, posypeme koriandrem a podáváme s rýží."
+    ]
+  },
+  {
+    "id": "obalovany-smazeny-hermelin",
+    "name": "Obalovaný smažený hermelín s brusinkami",
+    "emoji": "🧈",
+    "time": 25,
+    "servings": 2,
+    "tags": ["vegetarianske", "rychle"],
+    "leafletIngredients": [
+      { "id": "hermelin", "amount": "2 ks" },
+      { "id": "vejce10", "amount": "1 ks" }
+    ],
+    "pantryIngredients": ["hladká mouka", "strouhanka", "olej", "brusinky"],
+    "instructions": [
+      "Hermelín obalíme postupně v mouce, rozšlehaném vejci a strouhance.",
+      "Pro jistotu obalíme ještě jednou ve vejci a strouhance a na chvíli dáme zchladit do lednice.",
+      "Smažíme na rozpáleném oleji z obou stran dozlatova.",
+      "Podáváme s brusinkami."
+    ]
+  },
+  {
+    "id": "plneny-grilovany-hermelin",
+    "name": "Grilovaný hermelín plněný šunkou a česnekem",
+    "emoji": "🔥",
+    "time": 20,
+    "servings": 2,
+    "tags": ["maso", "grilovani", "rychle"],
+    "leafletIngredients": [
+      { "id": "hermelin", "amount": "2 ks" }
+    ],
+    "pantryIngredients": ["šunka", "česnek", "olej"],
+    "instructions": [
+      "Hermelín podélně nakrojíme, ale ne až do kraje, aby vznikla kapsa.",
+      "Vetřeme dovnitř prolisovaný česnek a vložíme plátek šunky.",
+      "Zabalíme do alobalu potřeného olejem a grilujeme asi 10 minut, dokud sýr uvnitř nezměkne.",
+      "Opatrně rozbalíme a hned podáváme."
+    ]
+  },
+  {
+    "id": "poke-bowl-tunak-avokado",
+    "name": "Poke bowl s opečeným tuňákem, avokádem a rýží",
+    "emoji": "🥙",
+    "time": 20,
+    "servings": 2,
+    "tags": ["ryba", "asijske", "rychle"],
+    "leafletIngredients": [
+      { "id": "tunak-steak", "amount": "200 g" },
+      { "id": "avokado", "amount": "1 ks" }
+    ],
+    "pantryIngredients": ["rýže", "sójová omáčka", "sezamový olej", "sezamová semínka", "okurka", "limetka"],
+    "instructions": [
+      "Tuňákový steak osolíme a na rozpálené pánvi na sezamovém oleji prudce opečeme z obou stran, uvnitř zůstane narůžovělý.",
+      "Necháme chvíli odpočinout a nakrájíme na kostky.",
+      "Do misky dáme uvařenou rýži, na ni poskládáme kostky tuňáka, plátky avokáda a okurku.",
+      "Pokapeme sójovou omáčkou a limetkou, posypeme sezamem."
+    ]
+  },
+  {
+    "id": "melounove-caprese",
+    "name": "Melounové caprese s mozzarellou a bazalkou",
+    "emoji": "🍉",
+    "time": 10,
+    "servings": 4,
+    "tags": ["vegetarianske", "rychle"],
+    "leafletIngredients": [
+      { "id": "vodni-meloun", "amount": "0,5 kg" },
+      { "id": "mozzarella", "amount": "1 balení" }
+    ],
+    "pantryIngredients": ["bazalka", "olivový olej", "balzamikový ocet", "sůl", "pepř"],
+    "instructions": [
+      "Meloun nakrájíme na kostky nebo plátky, mozzarellu na kousky.",
+      "Střídavě naskládáme na talíř s lístky bazalky.",
+      "Osolíme, opepříme a zakápneme olivovým olejem a balzamikovým octem."
+    ]
+  },
+  {
+    "id": "grilovana-prazma-bylinky",
+    "name": "Grilovaná pražma s bylinkami a citronem",
+    "emoji": "🐠",
+    "time": 25,
+    "servings": 2,
+    "tags": ["ryba", "grilovani"],
+    "leafletIngredients": [
+      { "id": "prazma", "amount": "400 g" }
+    ],
+    "pantryIngredients": ["olivový olej", "česnek", "petržel", "citron", "rozmarýn", "tymián"],
+    "instructions": [
+      "Do kůže ryby uděláme z obou stran několik zářezů.",
+      "Z olivového oleje, prolisovaného česneku a petržele připravíme marinádu a vetřeme ji do ryby.",
+      "Rybu naplníme plátky citronu a bylinkami.",
+      "Grilujeme na potřeném roštu asi 10 minut z každé strany."
+    ]
+  },
+  {
+    "id": "grilovany-kanic-bylinkove-maslo",
+    "name": "Grilovaný kanic s bylinkovým máslem",
+    "emoji": "🧈",
+    "time": 15,
+    "servings": 2,
+    "tags": ["ryba", "grilovani", "rychle"],
+    "leafletIngredients": [
+      { "id": "kanic-filet", "amount": "200 g" },
+      { "id": "maslo", "amount": "30 g" }
+    ],
+    "pantryIngredients": ["bylinky", "citron", "sůl", "pepř"],
+    "instructions": [
+      "Máslo smícháme s nasekanými bylinkami a citronovou šťávou.",
+      "Filet osolíme, opepříme a grilujeme na roštu 3–4 minuty z každé strany.",
+      "Hned po sundání z grilu na filet položíme plátek bylinkového másla, aby se rozpustilo."
+    ]
+  },
+  {
+    "id": "spekacky-na-grilu",
+    "name": "Špekáčky na grilu s hořčicí a chlebem",
+    "emoji": "🌭",
+    "time": 15,
+    "servings": 4,
+    "tags": ["maso", "grilovani", "rychle"],
+    "leafletIngredients": [
+      { "id": "spekacky", "amount": "4 ks" }
+    ],
+    "pantryIngredients": ["hořčice", "křen", "chléb", "cibule"],
+    "instructions": [
+      "Špekáčky lehce nařízneme do kříže, aby se hezky rozevřely.",
+      "Grilujeme na středním ohni, dokud se kůžička nezačne rozevírat a špekáček nezezlátne.",
+      "Podáváme s chlebem, hořčicí, křenem a nakrájenou cibulí."
+    ]
+  },
+  {
+    "id": "pikok-na-topince",
+    "name": "PIKOK vepřové maso na topince s okurkou",
+    "emoji": "🍞",
+    "time": 10,
+    "servings": 2,
+    "tags": ["maso", "rychle", "snidane"],
+    "leafletIngredients": [
+      { "id": "pikok-maso", "amount": "150 g" }
+    ],
+    "pantryIngredients": ["chléb", "cibule", "okurka", "sůl", "pepř"],
+    "instructions": [
+      "Chléb opečeme na sucho nebo v topinkovači.",
+      "Na topinku naneseme vepřové maso ve skle.",
+      "Ozdobíme kolečky cibule a okurky, osolíme a opepříme."
+    ]
+  },
+  {
+    "id": "avokadovy-toast-vejce",
+    "name": "Avokádový toast s vejcem",
+    "emoji": "🥑",
+    "time": 12,
+    "servings": 2,
+    "tags": ["vegetarianske", "rychle", "snidane"],
+    "leafletIngredients": [
+      { "id": "avokado", "amount": "1 ks" },
+      { "id": "vejce10", "amount": "2 ks" }
+    ],
+    "pantryIngredients": ["chléb", "citron", "chilli vločky", "sůl", "pepř", "olivový olej"],
+    "instructions": [
+      "Chléb opečeme dozlatova.",
+      "Avokádo rozmačkáme s citronovou šťávou, solí a pepřem a natřeme na topinku.",
+      "Vejce uvaříme na měkko/natvrdo dle chuti nebo osmažíme na oku.",
+      "Položíme na avokádový toast, pokapeme olivovým olejem a posypeme chilli vločkami."
+    ]
+  },
+  {
+    "id": "meloun-feta-mata-salat",
+    "name": "Salát z melounu, fety a máty",
+    "emoji": "🌿",
+    "time": 10,
+    "servings": 4,
+    "tags": ["vegetarianske", "rychle"],
+    "leafletIngredients": [
+      { "id": "meloun-cukrovy", "amount": "0,5 kg" }
+    ],
+    "pantryIngredients": ["feta", "máta", "olivový olej", "limetka", "černý pepř"],
+    "instructions": [
+      "Meloun nakrájíme na kostky.",
+      "Přidáme drobenou fetu a nasekanou mátu.",
+      "Zakápneme olivovým olejem a limetkou, na závěr pomeleme černý pepř."
+    ]
   }
 ]

@@ -154,6 +154,7 @@ function renderPantry() {
         });
         container.appendChild(label);
     }
+    document.getElementById("pantry-count").textContent = pantry.size > 0 ? `(${pantry.size})` : "";
 }
 
 function setPantryItem(id, has) {
@@ -241,6 +242,7 @@ const TAG_LABELS = {
     rychle: "Rychlé (do 20 min)",
     grilovani: "Grilování",
     snidane: "Snídaně",
+    asijske: "Asijská inspirace",
 };
 
 function renderFilterPanel() {

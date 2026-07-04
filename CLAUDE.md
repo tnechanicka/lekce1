@@ -35,7 +35,7 @@ items from it directly — no scraping involved, since the user supplies the fil
 .
 ├── _config.yml       # Jekyll config — sets the theme (jekyll-theme-leap-day)
 ├── index.html        # App shell/markup
-├── style.css         # All styling (vanilla CSS, Lidl-ish blue/yellow palette)
+├── style.css         # All styling (vanilla CSS, minimalist palette in :root custom properties)
 ├── app.js            # Core app: data loading, pantry, both modes, shopping list, saved-leaflet state
 ├── pdf-import.js     # PDF-to-leaflet-data import UI, built on top of app.js's saved-leaflet functions
 ├── vendor/pdfjs/     # Vendored pdf.js (Apache-2.0) build output — see its README.md
@@ -55,7 +55,10 @@ is hand-written and GitHub Pages serves it as-is via Jekyll. `vendor/pdfjs` is a
   `applyActiveLeaflet()` — see "Saved leaflets" below.
 - `pantry` is a `Set` of flyer item ids, loaded from/synced to `localStorage`
   (`loadPantry`/`savePantry`). It is the single source of truth for "what I already
-  have" across both modes.
+  have" across both modes. The "Moje spíž" section is a native `<details>` (collapsed
+  by default, item count shown in the `<summary>` via `renderPantry`'s last line) so it
+  doesn't dominate the page — it's secondary to the two recipe modes, not the first
+  thing shown.
 - **Mode "Podle toho, co mám"** (`renderIngredientModeRecipes`): recipes are scored by
   how many `leafletIngredients` are in `pantry` and sorted by match fraction; with an
   empty pantry every recipe shows as a full match.
