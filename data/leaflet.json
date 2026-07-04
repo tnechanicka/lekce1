@@ -1,0 +1,27 @@
+{
+  "note": "Ukázková data zastupující aktuální akční leták Lidlu. Uprav ručně každý týden podle skutečné nabídky na lidl.cz/c/aktualni-nabidka.",
+  "validFrom": "2026-06-29",
+  "validTo": "2026-07-05",
+  "items": [
+    { "id": "kureci-prsa", "name": "Kuřecí prsa", "price": "129,90 Kč/kg" },
+    { "id": "mleto-hovezi", "name": "Mleté hovězí maso", "price": "159,90 Kč/kg" },
+    { "id": "losos-filet", "name": "Lososí filet", "price": "189,90 Kč/kg" },
+    { "id": "vejce", "name": "Vejce M, 10 ks", "price": "39,90 Kč" },
+    { "id": "brambory", "name": "Brambory", "price": "19,90 Kč/kg" },
+    { "id": "cibule", "name": "Cibule", "price": "14,90 Kč/kg" },
+    { "id": "mrkev", "name": "Mrkev", "price": "17,90 Kč/kg" },
+    { "id": "rajcata", "name": "Rajčata", "price": "34,90 Kč/kg" },
+    { "id": "paprika", "name": "Paprika červená", "price": "49,90 Kč/kg" },
+    { "id": "cuketa", "name": "Cuketa", "price": "29,90 Kč/kg" },
+    { "id": "cesnek", "name": "Česnek", "price": "6,90 Kč/ks" },
+    { "id": "ryze", "name": "Rýže jasmínová", "price": "34,90 Kč/kg" },
+    { "id": "testoviny", "name": "Těstoviny penne", "price": "19,90 Kč" },
+    { "id": "mleko", "name": "Mléko polotučné", "price": "19,90 Kč" },
+    { "id": "smetana-na-vareni", "name": "Smetana na vaření", "price": "24,90 Kč" },
+    { "id": "sunkovy-syr", "name": "Eidam plátky", "price": "29,90 Kč" },
+    { "id": "maslo", "name": "Máslo", "price": "44,90 Kč" },
+    { "id": "citron", "name": "Citron", "price": "3,90 Kč/ks" },
+    { "id": "petrzelka", "name": "Petržel naťová", "price": "17,90 Kč" },
+    { "id": "hrasek-mrazeny", "name": "Hrášek mražený", "price": "29,90 Kč" }
+  ]
+}

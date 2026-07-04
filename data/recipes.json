@@ -1,0 +1,93 @@
+[
+  {
+    "id": "kureci-rizoto",
+    "name": "Kuřecí rizoto se zeleninou",
+    "emoji": "🍚",
+    "time": 35,
+    "servings": 4,
+    "leafletIngredients": ["kureci-prsa", "cibule", "mrkev", "hrasek-mrazeny", "ryze", "cesnek"],
+    "pantryIngredients": ["olej", "sůl", "pepř", "vývar"],
+    "instructions": [
+      "Cibuli a česnek najemno nakrájíme a orestujeme na oleji.",
+      "Přidáme na kostičky nakrájená kuřecí prsa a orestujeme dozlatova.",
+      "Vsypeme rýži, krátce orestujeme a zalijeme vývarem.",
+      "Přidáme nakrájenou mrkev, dusíme na mírném ohni cca 18 minut.",
+      "Na závěr vmícháme hrášek, dochutíme solí a pepřem."
+    ]
+  },
+  {
+    "id": "losos-s-brambory",
+    "name": "Pečený losos s bramborami a citronem",
+    "emoji": "🐟",
+    "time": 40,
+    "servings": 2,
+    "leafletIngredients": ["losos-filet", "brambory", "citron", "petrzelka", "cesnek"],
+    "pantryIngredients": ["olivový olej", "sůl", "pepř"],
+    "instructions": [
+      "Brambory nakrájíme na klínky, promícháme s olejem, solí a pepřem a dáme péct na 200 °C na 20 minut.",
+      "Lososí filet osolíme, opepříme a potřeme prolisovaným česnekem.",
+      "Přidáme lososa k bramborám a pečeme dalších 12–15 minut.",
+      "Před podáváním pokapeme citronovou šťávou a posypeme petrželkou."
+    ]
+  },
+  {
+    "id": "hovezi-boloonese",
+    "name": "Boloňské špagety",
+    "emoji": "🍝",
+    "time": 45,
+    "servings": 4,
+    "leafletIngredients": ["mleto-hovezi", "cibule", "mrkev", "rajcata", "cesnek", "testoviny"],
+    "pantryIngredients": ["olej", "sůl", "pepř", "bylinky"],
+    "instructions": [
+      "Cibuli, mrkev a česnek nakrájíme najemno a orestujeme na oleji.",
+      "Přidáme mleté maso a orestujeme dozlatova.",
+      "Zalijeme rajčaty, osolíme, opepříme a přidáme bylinky.",
+      "Necháme dusit na mírném ohni alespoň 25 minut.",
+      "Uvaříme těstoviny podle návodu a podáváme s omáčkou."
+    ]
+  },
+  {
+    "id": "plnena-paprika",
+    "name": "Plněná paprika s rýží",
+    "emoji": "🫑",
+    "time": 50,
+    "servings": 4,
+    "leafletIngredients": ["paprika", "mleto-hovezi", "ryze", "cibule", "rajcata"],
+    "pantryIngredients": ["olej", "sůl", "pepř", "vývar"],
+    "instructions": [
+      "Papriky zbavíme jádřinců a semínek.",
+      "Uvaříme rýži a smícháme s osmaženou cibulí a mletým masem.",
+      "Naplníme papriky směsí a dáme do hrnce se zalitými rajčaty a vývarem.",
+      "Dusíme doměkka asi 30 minut."
+    ]
+  },
+  {
+    "id": "zapecena-cuketa",
+    "name": "Zapečená cuketa se sýrem a vejci",
+    "emoji": "🥒",
+    "time": 30,
+    "servings": 3,
+    "leafletIngredients": ["cuketa", "vejce", "sunkovy-syr", "smetana-na-vareni", "cesnek"],
+    "pantryIngredients": ["sůl", "pepř", "olej"],
+    "instructions": [
+      "Cuketu nakrájíme na plátky a poskládáme do zapékací mísy.",
+      "Vejce rozšleháme se smetanou, solí, pepřem a prolisovaným česnekem.",
+      "Zalijeme cuketu, navrch dáme plátky sýra.",
+      "Pečeme na 190 °C asi 20 minut do zlatova."
+    ]
+  },
+  {
+    "id": "smazenice",
+    "name": "Míchaná vajíčka se zeleninou",
+    "emoji": "🍳",
+    "time": 15,
+    "servings": 2,
+    "leafletIngredients": ["vejce", "paprika", "cibule", "maslo"],
+    "pantryIngredients": ["sůl", "pepř"],
+    "instructions": [
+      "Cibuli a papriku nakrájíme na kostičky a orestujeme na másle.",
+      "Vejce rozšleháme, osolíme a opepříme.",
+      "Přidáme k zelenině a za stálého míchání usmažíme dozlatova."
+    ]
+  }
+]

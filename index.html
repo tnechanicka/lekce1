@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recepty z letáku Lidlu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-<h1>První lekce</h1>
-<p>začátky tvorby webu</p>
-<ul>osnova</ul>
-    
+<body>
+    <header>
+        <h1>Recepty z aktuálního letáku Lidlu</h1>
+        <p id="validity"></p>
+        <p class="note">
+            Pozn.: ceny a položky letáku jsou ukázková data (<code>data/leaflet.json</code>) –
+            uprav je ručně podle skutečné nabídky na
+            <a href="https://www.lidl.cz/c/aktualni-nabidka/a10008785" target="_blank" rel="noopener">lidl.cz/aktualni-nabidka</a>.
+        </p>
+    </header>
+
+    <main>
+        <section id="leaflet-section">
+            <h2>Co máš z letáku?</h2>
+            <p>Zaškrtni suroviny, které máš doma – appka podle nich seřadí recepty.</p>
+            <div id="leaflet-list" class="leaflet-grid"></div>
+        </section>
+
+        <section id="recipes-section">
+            <h2>Recepty</h2>
+            <div id="recipe-list" class="recipe-grid"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
