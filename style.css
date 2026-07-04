@@ -20,6 +20,12 @@ body {
     color: var(--text);
 }
 
+input[type="checkbox"] {
+    width: 1.15rem;
+    height: 1.15rem;
+    flex-shrink: 0;
+}
+
 header {
     background: var(--lidl-blue);
     color: white;
@@ -359,10 +365,16 @@ h2 {
     margin-top: 1rem;
 }
 
+.table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+}
+
 #pdf-review-table {
     width: 100%;
+    min-width: 32rem;
     border-collapse: collapse;
-    margin: 1rem 0;
     font-size: 0.85rem;
 }
 
@@ -375,10 +387,23 @@ h2 {
 
 #pdf-review-table input[type="text"] {
     width: 100%;
+    box-sizing: border-box;
     border: 1px solid var(--border);
     border-radius: 0.3rem;
     padding: 0.25rem 0.4rem;
     font-size: 0.85rem;
+}
+
+#pdf-review-table .pdf-row-id {
+    min-width: 8rem;
+}
+
+#pdf-review-table .pdf-row-name {
+    min-width: 11rem;
+}
+
+#pdf-review-table .pdf-row-price {
+    min-width: 6rem;
 }
 
 .pdf-row-tag {
