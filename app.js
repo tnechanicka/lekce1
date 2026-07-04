@@ -8,6 +8,7 @@ const MONTH_NAMES = [
     "leden", "únor", "březen", "duben", "květen", "červen",
     "červenec", "srpen", "září", "říjen", "listopad", "prosinec",
 ];
+const DAY_NAMES = ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek", "Sobota", "Neděle"];
 
 // Month (1-12) ranges when an ingredient is fresh/in season in Czechia. Ingredients
 // not listed here are treated as available year-round (imported, dried, staples...)
@@ -72,6 +73,7 @@ const INGREDIENT_CATEGORY = {
     "sezamova-seminka": "Koření, oleje a omáčky", "sezamovy-olej": "Koření, oleje a omáčky",
     skorice: "Koření, oleje a omáčky", "sojova-omacka": "Koření, oleje a omáčky", sul: "Koření, oleje a omáčky",
     "tatarska-omacka": "Koření, oleje a omáčky", wasabi: "Koření, oleje a omáčky",
+    "rybi-omacka": "Koření, oleje a omáčky",
     "kypricí-prasek": "Koření, oleje a omáčky", nutella: "Koření, oleje a omáčky",
     cokolada: "Koření, oleje a omáčky", "cokoladove-capky": "Koření, oleje a omáčky",
     "okurka-nakladana": "Koření, oleje a omáčky", brusinky: "Koření, oleje a omáčky",
@@ -683,6 +685,50 @@ function renderLeftoverRecipes(haveAfterShoppingIds) {
 
 // ---------- Tabs ----------
 
+// ---------- Vzorový jídelníček ----------
+
+function shuffled(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+}
+
+function generateMealPlan() {
+    const pool = filteredRecipes();
+    if (pool.length === 0) {
+        alert("Žádný recept neodpovídá aktuálním preferencím – uprav filtry a zkus to znovu.");
+        return;
+    }
+
+    const picked = shuffled(pool).slice(0, Math.min(7, pool.length));
+    planned = new Set(picked.map((r) => r.id));
+
+    renderMealPlan(picked);
+    renderPreferenceModeRecipes();
+    document.getElementById("meal-plan-output").hidden = false;
+}
+
+function renderMealPlan(picked) {
+    const list = document.getElementById("meal-plan-list");
+    list.innerHTML = picked
+        .map(
+            (recipe, i) => `
+        <li>
+            <strong>${DAY_NAMES[i] || `Den ${i + 1}`}:</strong>
+            ${recipe.emoji} ${recipe.name}
+            <span class="recipe-meta-inline">⏱ ${recipe.time} min</span>
+        </li>`
+        )
+        .join("");
+}
+
+function initMealPlan() {
+    document.getElementById("generate-meal-plan-btn").addEventListener("click", generateMealPlan);
+}
+
 function initTabs() {
     document.querySelectorAll(".tab").forEach((btn) => {
         btn.addEventListener("click", () => {
@@ -707,6 +753,7 @@ async function init() {
     renderFilterPanel();
     renderPreferenceModeRecipes();
     initTabs();
+    initMealPlan();
 }
 
 init();

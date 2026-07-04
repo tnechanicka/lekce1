@@ -16,7 +16,7 @@ two flows:
    "recepty na zbytky" (leftover-use) suggestions for other recipes that reuse what
    you just bought.
 
-Recipes (`data/recipes.json`, 100 of them) are **general-purpose and not tied to any
+Recipes (`data/recipes.json`, 111 of them) are **general-purpose and not tied to any
 flyer** — each has a plain `ingredients` list drawn from a shared ingredient-id
 vocabulary reused across recipes, pantry staples, and the flyer. The Lidl flyer
 (`data/leaflet.json`) is a secondary, opportunistic layer on top: if a recipe
@@ -46,7 +46,7 @@ items from it directly — no scraping involved, since the user supplies the fil
 ├── vendor/pdfjs/     # Vendored pdf.js (Apache-2.0) build output — see its README.md
 └── data/
     ├── leaflet.json        # Default/baseline flyer items (id, name, price) + validity dates
-    ├── recipes.json        # 100 recipes: tags, time/servings, ingredients (id+name+amount), instructions
+    ├── recipes.json        # 111 recipes: tags, time/servings, ingredients (id+name+amount), instructions
     └── pantry-staples.json # Default "Moje spíž" checklist (id+name, no prices) — generic, not flyer-derived
 ```
 
@@ -112,6 +112,13 @@ This is the part to understand before touching data or matching logic:
 - Checking/unchecking an item anywhere (pantry list or shopping list) updates the same
   `pantry` Set and re-renders whatever's currently visible.
 - Clicking a recipe card (outside its checkbox) toggles its instructions open/closed.
+- **"Vygenerovat vzorový jídelníček"** (`generateMealPlan`) picks up to 7 random
+  recipes from the *currently filtered* pool (`filteredRecipes()` — respects active
+  tags/time/season filters), overwrites `planned` with them, and renders a Monday–Sunday
+  list (`renderMealPlan`/`DAY_NAMES`). It's just a shortcut into the existing
+  `planned`/`buildShoppingList` flow, not a separate data model — the generated recipes
+  show as checked in the grid below and the user can still tweak the selection before
+  building the shopping list.
 
 ### Saved leaflets (`localStorage`, no backend)
 

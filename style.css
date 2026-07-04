@@ -456,6 +456,54 @@ h2 {
     margin-top: 1.75rem;
 }
 
+.meal-plan-bar {
+    margin: 0.5rem 0 1rem;
+}
+
+#generate-meal-plan-btn {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 1.1rem;
+    font-size: 0.87rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#meal-plan-output {
+    background: var(--accent-soft);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+#meal-plan-output h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1rem;
+}
+
+#meal-plan-output p {
+    margin: 0 0 0.75rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+#meal-plan-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+#meal-plan-list li {
+    padding: 0.25rem 0;
+}
+
+.recipe-meta-inline {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-left: 0.3rem;
+}
+
 #build-list-btn {
     background: var(--accent);
     color: white;
