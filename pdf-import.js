@@ -1,4 +1,32 @@
 const PRICE_RE = /(\d{1,4}(?:[.,]\d{1,2})?)\s*Kč(?:\s*\/\s*[\wá-ž.,]+)?/i;
+// Some flyers (e.g. Tesco) print the sale price as a big whole-koruna number with a
+// small raised "haléře" superscript and no "Kč" text at all near it. Because the
+// superscript sits higher on the page, it ends up as its own short line just above
+// the whole-number line once text is grouped by y-coordinate. This is a heuristic,
+// not a guarantee — always double-check the review table before using it.
+const BARE_WHOLE_RE = /^\d{1,4}$/;
+const BARE_DECIMAL_RE = /^\d{2}$/;
+// A line that's just digits/punctuation/percent (old crossed-out prices, "-63%"
+// discount tags, bare price fragments...) is never a usable product name, even if
+// it doesn't match the price patterns above — it needs at least one letter.
+const HAS_LETTER_RE = /[a-zá-žA-ZÁ-Ž]/;
+// Generic price-tag banners that sit right next to the price but aren't the product
+// name (seen on Tesco-style tags, where the name is actually the *next* line down).
+const BANNER_PHRASES = ["cena pro vsechny", "super cena", "akcni cena", "novinka", "doporucena cena"];
+
+function normalizeForBannerCheck(text) {
+    return text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+}
+
+function isLikelyName(text) {
+    if (text.length < 3 || !HAS_LETTER_RE.test(text)) return false;
+    if (PRICE_RE.test(text) || BARE_WHOLE_RE.test(text) || BARE_DECIMAL_RE.test(text)) return false;
+    if (BANNER_PHRASES.includes(normalizeForBannerCheck(text))) return false;
+    return true;
+}
 
 async function extractPdfLines(file) {
     const pdfjsLib = await import("./vendor/pdfjs/pdf.min.mjs");
@@ -44,21 +72,50 @@ async function extractPdfLines(file) {
 
 function extractCandidates(lines) {
     const candidates = [];
+    const consumed = new Set();
+
     for (let i = 0; i < lines.length; i++) {
+        if (consumed.has(i)) continue;
         const { text } = lines[i];
+
+        let price = null;
+        let nameFromSameLine = "";
+        let priceLineIndex = i;
+
         const match = text.match(PRICE_RE);
-        if (!match) continue;
+        if (match) {
+            price = match[0].trim();
+            nameFromSameLine = text.slice(0, match.index).trim();
+        } else if (
+            BARE_WHOLE_RE.test(text) &&
+            i > 0 &&
+            !consumed.has(i - 1) &&
+            BARE_DECIMAL_RE.test(lines[i - 1].text)
+        ) {
+            // Split-price fallback (see BARE_WHOLE_RE/BARE_DECIMAL_RE above).
+            price = `${text},${lines[i - 1].text} Kč`;
+            consumed.add(i - 1);
+            priceLineIndex = i - 1;
+        }
+        if (!price) continue;
 
-        const price = match[0].trim();
-        let name = text.slice(0, match.index).trim();
-
-        for (let back = 1; back <= 2 && name.length < 3 && i - back >= 0; back++) {
-            const candidate = lines[i - back].text;
-            if (!PRICE_RE.test(candidate) && candidate.length >= 3) {
+        let name = nameFromSameLine;
+        for (let back = 1; back <= 2 && !isLikelyName(name) && priceLineIndex - back >= 0; back++) {
+            const candidate = lines[priceLineIndex - back].text;
+            if (isLikelyName(candidate)) {
                 name = candidate;
             }
         }
-        if (name.length < 3) continue;
+        // Some layouts (e.g. Tesco) put the product name *below* the price instead of
+        // above it, often behind a generic "Super cena"-style banner line — look
+        // forward past those once the backward search comes up empty.
+        for (let fwd = 1; fwd <= 4 && !isLikelyName(name) && i + fwd < lines.length; fwd++) {
+            const candidate = lines[i + fwd].text;
+            if (isLikelyName(candidate)) {
+                name = candidate;
+            }
+        }
+        if (!isLikelyName(name)) continue;
 
         candidates.push({ id: slugifyLeafletId(name), name, price });
     }

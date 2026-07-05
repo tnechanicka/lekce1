@@ -152,9 +152,19 @@ classic script and share top-level scope/state with `app.js`, e.g. `leaflet`,
   "reconstruct reading order from positioned glyphs" approach. It processes **all**
   pages (no page cap); large flyers (Lidl's is ~55 pages) just take longer.
 - `extractCandidates` regex-matches a price pattern (`PRICE_RE`, tuned for `"39,90
-  Kč"` / `"79,90 Kč/kg"`) per line; if the same line has no usable name text before the
-  price, it looks up to 2 lines back for one. This is a heuristic, not a guarantee —
-  layouts where the price and name aren't adjacent in reading order will be missed.
+  Kč"` / `"79,90 Kč/kg"`) per line. Some retailers (Tesco) instead print the price as
+  a big whole-koruna number with a small raised decimal superscript and no "Kč" text
+  at all; since the superscript sits higher on the page, it lands on its own short
+  line just *above* the whole-number line once grouped by y-coordinate —
+  `BARE_WHOLE_RE`/`BARE_DECIMAL_RE` catch that pattern and synthesize a normal
+  `"54,90 Kč"`-style price string from the pair, so the rest of the pipeline doesn't
+  need to know which style produced it. `isLikelyName` decides what counts as a
+  product name (must contain a letter, must not itself look like a price/percentage,
+  must not be a generic banner like "Super cena" — see `BANNER_PHRASES`); if the same
+  line has no usable name text before the price, it looks up to 2 lines back, then up
+  to 4 lines *forward* (Tesco-style layouts put the name below the price, behind a
+  banner line). This is all heuristic, not a guarantee — layouts that don't match any
+  of these patterns will be missed and need the raw-text fallback below.
 - Results are shown in an **editable review table** (checkbox to include, editable
   id/name/price) before anything is saved — extraction quality varies by flyer layout,
   so this manual check is load-bearing, not optional polish. The raw extracted text is
